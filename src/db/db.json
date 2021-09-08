@@ -1,0 +1,154 @@
+{
+  "loadout": {
+    "katana_slot": {
+      "katana": "water_katana",
+      "ki": 110,
+      "property_1": {
+        "property": "melee_dmg",
+        "value": 12
+      },
+      "property_2": {
+        "property": "melee_resolve_gain",
+        "value": 10
+      },
+      "perk_1": "wotf",
+      "perk_2": "burning_blade"
+    },
+    "ranged_slot": {
+      "ranged_weapon": "half_bow",
+      "ki": 110,
+      "property_1": {
+        "property": "ranged_dmg",
+        "value": 12
+      },
+      "property_2": {
+        "property": "ranged_resolve_gain",
+        "value": 10
+      },
+      "perk_1": "headshot_refund"
+    },
+    "charm_slot": {
+      "charm": "samurai_charm",
+      "ki": 110,
+      "property_1": {
+        "property": "melee_dmg",
+        "value": 12
+      },
+      "property_2": {
+        "property": "melee_resolve_gain",
+        "value": 10
+      },
+      "perk_1": "combat_regeneration"
+    }
+  },
+  "katanas": {
+    "water_katana": {
+      "name": "Water Katana",
+      "rarity": "epic",
+      "gear_type": {
+        "katana": true
+      }
+    }
+  },
+  "ranged_weapons": {
+    "half_bow": {
+      "name": "Half-Bow",
+      "rarity": "epic",
+      "gear_type": {
+        "half_bow": true
+      }
+    }
+  },
+  "charms": {
+    "samurai_charm": {
+      "name": "Samurai Charm",
+      "rarity": "legendary",
+      "gear_type": {
+        "samurai_charm": true
+      }
+    }
+  },
+  "properties": {
+    "melee_dmg": {
+      "title": "Melee Damage",
+      "description": "Increases damage from Melee attacks.",
+      "gear_type": {
+        "katana": true,
+        "meele_charm": true,
+        "samurai_charm": true,
+        "kunai": true
+      },
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage"
+    },
+    "melee_resolve_gain": {
+      "title": "Melee Resolve Gain",
+      "description": "Increases Resolve gained from Melee attacks and kills.",
+      "gear_type": {
+        "katana": true,
+        "meele_charm": true,
+        "samurai_charm": true
+      },
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage"
+    },
+    "ranged_dmg": {
+      "title": "Ranged Damage",
+      "description": "Increases damage from Ranged weapons.",
+      "gear_type": {
+        "half_bow": true,
+        "longbow": true,
+        "ranged_charm": true,
+        "hunter_charm": true
+      },
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage"
+    },
+    "ranged_resolve_gain": {
+      "title": "Ranged Resolve Gain",
+      "description": "Increases Resolve gained from Ranged attacks and kills.",
+      "gear_type": {
+        "half_bow": true,
+        "longbow": true,
+        "ranged_charm": true,
+        "hunter_charm": true
+      },
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage"
+    }
+  },
+  "perks": {
+    "wotf": {
+      "title": "Way of the Flame",
+      "description": "Ignite the katana to apply Burning damage to Melee attacks for a short time (R1+O).",
+      "gear_type": {
+        "katana": true
+      }
+    },
+    "headshot_refund": {
+      "title": "Headshot Refund",
+      "description": "Instantly recover non-special ammo when landing a headshot from this weapon.",
+      "gear_type": {
+        "half_bow": true
+      }
+    },
+    "combat_regeneration": {
+      "title": "Combat Regeneration",
+      "description": "Health regenerates up to 50 max health. Healing rate reduced by half when in combat.",
+      "gear_type": {
+        "katana": true
+      }
+    },
+    "burning_blade": {
+      "title": "Burning Blade",
+      "description": "Melee attacks have a chance to apply the Burning effect.",
+      "gear_type": {
+        "katana": true
+      }
+    }
+  }
+}
