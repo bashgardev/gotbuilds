@@ -1,0 +1,402 @@
+[
+  {
+    "id": "wrath_of_sarugami",
+    "title": "Wrath of Sarugami",
+    "rarity": "legendary",
+    "function": "Regular Parry is disabled, Perfect Parry becomes a chain of 3 attacks.",
+    "type": "water",
+    "gear_type": "katana"
+  },
+  {
+    "id": "yoshitsues_hand",
+    "title": "Yoshitsune's Hand",
+    "rarity": "legendary",
+    "function": "Staggering a target has a 30% chance to cause a knock down.",
+    "type": "water",
+    "gear_type": "katana"
+  },
+  {
+    "id": "masamunes_edge",
+    "title": "Masamune's Edge",
+    "rarity": "legendary",
+    "function": "Melee has 20% chance to deal double damage.",
+    "type": "wind",
+    "gear_type": "katana"
+  },
+  {
+    "id": "masters_katana",
+    "title": "Master's Katana",
+    "rarity": "legendary",
+    "function": "Allows switching between any Stance.",
+    "type": "master",
+    "gear_type": "katana"
+  },
+  {
+    "id": "stone_striker",
+    "title": "Stone Striker",
+    "rarity": "legendary",
+    "function": "Improved Heavenly Strike (Extra Damage and Knockback). Costs 1 Resolve.",
+    "type": "stone",
+    "gear_type": "katana"
+  },
+  {
+    "id": "demon_cutter",
+    "title": "Demon Cutter",
+    "rarity": "legendary",
+    "function": "Staggering a target has a 30% chance to throw nearby enemies.",
+    "type": "moon",
+    "gear_type": "katana"
+  },
+  {
+    "id": "stone_katana",
+    "title": "Stone Katana",
+    "rarity": "epic",
+    "function": "Regular Katana with Stone Stance",
+    "type": "stone",
+    "gear_type": "katana"
+  },
+  {
+    "id": "water_katana",
+    "title": "Water Katana",
+    "rarity": "epic",
+    "function": "Regular Katana with Water Stance",
+    "type": "water",
+    "gear_type": "katana"
+  },
+  {
+    "id": "moon_katana",
+    "title": "Moon Katana",
+    "rarity": "epic",
+    "function": "Regular Katana with Moon Stance",
+    "type": "moon",
+    "gear_type": "katana"
+  },
+  {
+    "id": "wind_katana",
+    "title": "Wind Katana",
+    "rarity": "epic",
+    "function": "Regular Katana with Wind Stance",
+    "type": "wind",
+    "gear_type": "katana"
+  },
+  {
+    "id": "weightless_spirit",
+    "title": "The Weightless Spirit",
+    "rarity": "legendary",
+    "function": "Arrows don't descend.",
+    "type": "half_bow",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "stone_skipping_bow",
+    "title": "Stone-Skipping Bow",
+    "rarity": "legendary",
+    "function": "Headshots ricochet to nearby targets.",
+    "type": "long_bow",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "heavens_sting",
+    "title": "Heaven's Sting",
+    "rarity": "legendary",
+    "function": "20% chance to instantly kill non-oni targets.",
+    "type": "blowgun",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "forbidden medicine",
+    "title": "Forbidden Medicine",
+    "rarity": "legendary",
+    "function": "Bombs heal allies.",
+    "type": "bomb_pack",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "sarugamis_sight",
+    "title": "Sarugami's Sight",
+    "rarity": "legendary",
+    "function": "",
+    "type": "half_bow",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "half_bow",
+    "title": "Half-Bow",
+    "rarity": "epic",
+    "function": "Regular Half-Bow",
+    "type": "half_bow",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "longbow",
+    "title": "Longbow",
+    "rarity": "epic",
+    "function": "Regular Longbow",
+    "type": "long_bow",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "blowgun",
+    "title": "Blowgun",
+    "rarity": "epic",
+    "function": "Regular Blowgun",
+    "type": "blowgun",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "bomb_pack",
+    "title": "Bomb Pack",
+    "rarity": "epic",
+    "function": "Regular Bomb Pack",
+    "type": "bomb_pack",
+    "gear_type": "ranged"
+  },
+  {
+    "id": "heavenly_rebuke",
+    "title": "Heavenly Rebuke",
+    "rarity": "legendary",
+    "function": "On performing Heavenly Strike, there is a 50% chance for lightning to strike a nearby enemy. Grants Heavenly Strike.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "restorative_rhythm",
+    "title": "Restorative Rhythm",
+    "rarity": "legendary",
+    "function": "Hitting a healing drum will heal all wounded heroes and revive anyone currently downed.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "sarugamis_glare",
+    "title": "Sarugami's Glare",
+    "rarity": "legendary",
+    "function": "Perfect dodge becomes an attack that blinds nearby enemies.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "last_breath",
+    "title": "Last Breath",
+    "rarity": "legendary",
+    "function": "Instead of taking fatal damage, heal for 50 health. Can occur once every 5 minutes.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "benkeis_last_stand",
+    "title": "Benkei's Last Stand",
+    "rarity": "legendary",
+    "function": "15% chance to ignore arrow damage.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "enjos_remorse",
+    "title": "Enjo's Remorse",
+    "rarity": "legendary",
+    "function": "Deal 15% bonus damage when at full health.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "shoguns_fortitude",
+    "title": "Shogun's Fortitude",
+    "rarity": "legendary",
+    "function": "Grants immunity to flash and poison effects.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "sacred_iron",
+    "title": "Sacred Iron",
+    "rarity": "legendary",
+    "function": "Enemies that deal Melee damage to you have Weaken applied to them.",
+    "type": "",
+    "gear_type": "charm"
+  },
+  {
+    "id": "ranged_charm",
+    "title": "Ranged Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "ranged_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "defense_charm",
+    "title": "Defense Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "defense_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "utility_charm",
+    "title": "Utility Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "utility_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "melee_charm",
+    "title": "Melee Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "melee_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "stealth_charm",
+    "title": "Stealth Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "stealth_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "samurai_charm",
+    "title": "Samurai Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "samurai_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "hunter_charm",
+    "title": "Hunter Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "hunter_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "ronin_charm",
+    "title": "Ronin Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "ronin_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "assassin_charm",
+    "title": "Assassin Charm",
+    "rarity": "epic",
+    "function": "",
+    "type": "assassin_charm",
+    "gear_type": "charm"
+  },
+  {
+    "id": "magma_bomb",
+    "title": "Magma Bomb",
+    "rarity": "legendary",
+    "function": "Attaches to an enemy and explodes, Staggering anyone caught in the blast and creating a small smoke cloud.",
+    "type": "sticky_bomb",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "lady_sanjos_surprise",
+    "title": "Lady Sanjo's Surprise",
+    "rarity": "legendary",
+    "function": "A Dirt Throw that also has a 15% chance to cause enemies to hallucinate.",
+    "type": "dirt_throw",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "spirit_kunai",
+    "title": "Spirit Kunai",
+    "rarity": "legendary",
+    "function": "Getting a kill with Kunai lowers all cooldowns on your character by 15 seconds.",
+    "type": "kunai",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "touch_of_heaven",
+    "title": "The Touch of Heaven",
+    "rarity": "legendary",
+    "function": "A Sticky Bomb that also heals allies on hit.",
+    "type": "sticky_bomb",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "sticky_bomb",
+    "title": "Sticky Bomb",
+    "rarity": "epic",
+    "function": "Regular Sticky Bomb",
+    "type": "sticky_bomb",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "dirt_throw",
+    "title": "Dirt Throw",
+    "rarity": "epic",
+    "function": "Regular Dirt Throw",
+    "type": "dirt_throw",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "kunai",
+    "title": "Kunai",
+    "rarity": "epic",
+    "function": "Regular Kunai",
+    "type": "kunai",
+    "gear_type": "ghost_weapon_1"
+  },
+  {
+    "id": "bottle_of_liquid_courage",
+    "title": "Bottle of Liquid Courage",
+    "rarity": "legendary",
+    "function": "Refills less health on use, but also refills 1-3 Resolve.",
+    "type": "healing_gourd",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "mist_of_yagata",
+    "title": "The Mist of Yagata",
+    "rarity": "legendary",
+    "function": "A Smoke Bomb that also heals allies in the smoke.",
+    "type": "smoke_bomb",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "demon_seeds",
+    "title": "Demon Seeds",
+    "rarity": "legendary",
+    "function": "Applies Weaken to affected enemies.",
+    "type": "caltrops",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "kenjis_shared_brew",
+    "title": "Kenji's Shared Brew",
+    "rarity": "legendary",
+    "function": "A Healing Gourd that also heals nearby allies when used.",
+    "type": "healing_gourd",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "healing_gourd",
+    "title": "Healing Gourd",
+    "rarity": "epic",
+    "function": "Regular Healing Gourd",
+    "type": "healing_gourd",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "smoke_bomb",
+    "title": "Smoke Bomb",
+    "rarity": "epic",
+    "function": "Regular Smoke Bomb",
+    "type": "smoke_bomb",
+    "gear_type": "ghost_weapon_2"
+  },
+  {
+    "id": "caltrops",
+    "title": "Caltrops",
+    "rarity": "epic",
+    "function": "Regular Caltrops",
+    "type": "caltrops",
+    "gear_type": "ghost_weapon_2"
+  }
+]

@@ -1,71 +1,92 @@
 {
   "loadout": {
-    "katana_slot": {
-      "katana": "water_katana",
+    "katana": {
+      "item": "water_katana",
       "ki": 110,
-      "property_1": {
-        "property": "melee_dmg",
-        "value": 12
-      },
-      "property_2": {
-        "property": "melee_resolve_gain",
-        "value": 10
-      },
+      "property_1": "melee_dmg",
+      "property_2": "melee_resolve_gain",
       "perk_1": "wotf",
       "perk_2": "burning_blade"
     },
-    "ranged_slot": {
-      "ranged_weapon": "half_bow",
+    "ranged": {
+      "item": "half_bow",
       "ki": 110,
-      "property_1": {
-        "property": "ranged_dmg",
-        "value": 12
-      },
-      "property_2": {
-        "property": "ranged_resolve_gain",
-        "value": 10
-      },
+      "property_1": "ranged_dmg",
+      "property_2": "ranged_resolve_gain",
       "perk_1": "headshot_refund"
     },
-    "charm_slot": {
-      "charm": "samurai_charm",
+    "charm": {
+      "item": "samurai_charm",
       "ki": 110,
-      "property_1": {
-        "property": "melee_dmg",
-        "value": 12
-      },
-      "property_2": {
-        "property": "melee_resolve_gain",
-        "value": 10
-      },
+      "property_1": "melee_dmg",
+      "property_2": "melee_resolve_gain",
+      "perk_1": "combat_regeneration"
+    },
+    "ghost_weapon_1": {
+      "item": "kunai",
+      "ki": 110,
+      "property_1": "melee_dmg",
+      "property_2": "melee_resolve_gain",
+      "perk_1": "combat_regeneration"
+    },
+    "ghost_weapon_2": {
+      "item": "sticky_bomb",
+      "ki": 110,
+      "property_1": "melee_dmg",
+      "property_2": "melee_resolve_gain",
       "perk_1": "combat_regeneration"
     }
   },
-  "katanas": {
-    "water_katana": {
-      "name": "Water Katana",
+  "gear_list": {
+    "wind_katana": {
+      "title": "Wind Katana",
       "rarity": "epic",
-      "gear_type": {
-        "katana": true
-      }
-    }
-  },
-  "ranged_weapons": {
+      "gear_type": "katana"
+    },
+    "stone_katana": {
+      "title": "Stone Katana",
+      "rarity": "epic",
+      "gear_type": "katana"
+    },
+    "moon_katana": {
+      "title": "Moon Katana",
+      "rarity": "epic",
+      "gear_type": "katana"
+    },
     "half_bow": {
-      "name": "Half-Bow",
+      "title": "Half-Bow",
       "rarity": "epic",
-      "gear_type": {
-        "half_bow": true
-      }
-    }
-  },
-  "charms": {
+      "gear_type": "ranged"
+    },
     "samurai_charm": {
-      "name": "Samurai Charm",
-      "rarity": "legendary",
-      "gear_type": {
-        "samurai_charm": true
-      }
+      "title": "Samurai Charm",
+      "rarity": "epic",
+      "gear_type": "charm"
+    },
+    "utility_charm": {
+      "title": "Utility Charm",
+      "rarity": "epic",
+      "gear_type": "charm"
+    },
+    "kunai": {
+      "title": "Kunai",
+      "rarity": "epic",
+      "gear_type": "ghost_weapon_1"
+    },
+    "sticky_bomb": {
+      "title": "Sticky Bomb",
+      "rarity": "epic",
+      "gear_type": "ghost_weapon_1"
+    },
+    "healing_gourd": {
+      "title": "Healing Gourd",
+      "rarity": "epic",
+      "gear_type": "ghost_weapon_2"
+    },
+    "dirt_throw": {
+      "title": "Dirt Throw",
+      "rarity": "epic",
+      "gear_type": "ghost_weapon_2"
     }
   },
   "properties": {
