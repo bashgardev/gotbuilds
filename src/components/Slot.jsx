@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import db from "../db/db.json";
@@ -9,7 +9,7 @@ import { useState } from "react";
 import { Listbox } from "@headlessui/react";
 
 export default function Slot(props) {
-  const [slot, setSlot] = useState(props.value);
+  const [slot, setSlot] = useState(props.value[props.type]);
 
   // Determine items compatible for the slot, given the gear_type and the type of the slot
   const compatibleItems = items
@@ -32,6 +32,14 @@ export default function Slot(props) {
     rarity_className = "text-purple-600 uppercase";
   }
 
+  useEffect(() => {
+    setSlot((prevSlot) => {
+      return {
+        ...prevSlot,
+        item: selected.id,
+      };
+    });
+  }, [selected]);
   // console.log(selectedItem.item);
   return (
     <div

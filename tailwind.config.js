@@ -1050,6 +1050,9 @@ module.exports = {
         noto: ["Noto Sans JP"],
         urbanist: ["Urbanist"],
       },
+      backgroundImage: {
+        hero: "url('../assets/hero.jpg')",
+      },
     },
   },
   variants: {

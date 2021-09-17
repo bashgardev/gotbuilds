@@ -1,0 +1,49 @@
+{
+  "loadout": {
+    "class": "samurai",
+    "ability": "ability_1",
+    "techniques": {
+      "tech_1": "tech_1",
+      "tech_2": "tech_2",
+      "tech_3": "tech_3"
+    },
+    "build": {
+      "katana": {
+        "item": "water_katana",
+        "ki": 110,
+        "property_1": "melee_dmg",
+        "property_2": "melee_resolve_gain",
+        "perk_1": "wotf",
+        "perk_2": "burning_blade"
+      },
+      "ranged": {
+        "item": "half_bow",
+        "ki": 110,
+        "property_1": "ranged_dmg",
+        "property_2": "ranged_resolve_gain",
+        "perk_1": "headshot_refund"
+      },
+      "charm": {
+        "item": "samurai_charm",
+        "ki": 110,
+        "property_1": "melee_dmg",
+        "property_2": "melee_resolve_gain",
+        "perk_1": "combat_regeneration"
+      },
+      "ghost_weapon_1": {
+        "item": "kunai",
+        "ki": 110,
+        "property_1": "melee_dmg",
+        "property_2": "melee_resolve_gain",
+        "perk_1": "combat_regeneration"
+      },
+      "ghost_weapon_2": {
+        "item": "sticky_bomb",
+        "ki": 110,
+        "property_1": "melee_dmg",
+        "property_2": "melee_resolve_gain",
+        "perk_1": "combat_regeneration"
+      }
+    }
+  }
+}
