@@ -42,12 +42,9 @@ export default function Slot(props) {
   }, [selected]);
   // console.log(selectedItem.item);
   return (
-    <div
-      id="slot"
-      className="border-t-2 max-w-screen-lg border-opacity-75 grid md:grid-cols-2 text-lg"
-    >
-      <div className="flex text-white bg-black bg-opacity-50">
-        <div className="flex-none self-center m-2">
+    <div id="slot" className=" grid md:grid-cols-2 text-lg">
+      <div className=" border-t-2 border-white border-opacity-50 flex text-white bg-black bg-opacity-50">
+        <div className=" flex-none self-center m-2">
           <img
             className="shadow-md md:h-24 md:w-24 h-20 w-20 "
             src={icon}
@@ -71,7 +68,7 @@ export default function Slot(props) {
           <h1 className={rarity_className}>{rarity}</h1>
         </div>
       </div>
-      <div className="text-white bg-black bg-opacity-75 p-4 flex justify-between">
+      <div className="md:border-t-2 border-white border-opacity-50 text-white bg-black bg-opacity-75 p-4 flex justify-between">
         <div className="table w-full">
           <div className="table-row-group text-white text-opacity-80">
             <div className="table-row">

@@ -8,7 +8,7 @@ export default function Build() {
   const [currentBuild, setCurrentBuild] = useState(build);
 
   return (
-    <div>
+    <div className="">
       <Hero />
       <Slot type="katana" value={currentBuild} changebuild={setCurrentBuild} />
       <Slot type="ranged" value={currentBuild} />

@@ -1051,7 +1051,10 @@ module.exports = {
         urbanist: ["Urbanist"],
       },
       backgroundImage: {
-        hero: "url('../assets/hero.jpg')",
+        hero: "url('../assets/hero.png')",
+      },
+      borderWidth: {
+        3: "3px",
       },
     },
   },
