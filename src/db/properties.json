@@ -1,0 +1,330 @@
+[
+  {
+    "id": "melee_dmg",
+    "title": "Melee Damage",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "katana, melee_charm, samurai_charm, kunai"
+  },
+  {
+    "id": "melee_resolve_gain",
+    "title": "Melee Resolve Gain",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "katana, melee_charm, samurai_charm"
+  },
+  {
+    "id": "perfect_parry_window",
+    "title": "Perfect Parry Window",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "katana, melee_charm, samurai_charm, dirt_throw"
+  },
+  {
+    "id": "melee_stagger_dmg",
+    "title": "Melee Stagger Damage",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "katana, bomb_pack, melee_charm, samurai_charm, caltrops"
+  },
+  {
+    "id": "counter_dmg",
+    "title": "Counter Damage",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "katana, melee_charm, samurai_charm"
+  },
+  {
+    "id": "ult_dmg",
+    "title": "Ultimate Damage",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "ability_cool_red",
+    "title": "Ability Cooldown Reduction",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm"
+  },
+  {
+    "id": "oni_dmg",
+    "title": "Oni Damage",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm"
+  },
+  {
+    "id": "staggered_dmg",
+    "title": "Staggered Damage",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm"
+  },
+  {
+    "id": "ranged_dmg",
+    "title": "Ranged Damage",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow, ranged_charm, hunter_charm"
+  },
+  {
+    "id": "ranged_resolve_gain",
+    "title": "Ranged Resolve Gain",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow, ranged_charm, hunter_charm"
+  },
+  {
+    "id": "headshot_dmg",
+    "title": "Headshot Damage",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow, ranged_charm, hunter_charm"
+  },
+  {
+    "id": "draw_spd",
+    "title": "Draw Speed",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow, ranged_charm, hunter_charm"
+  },
+  {
+    "id": "reload_spd",
+    "title": "Reload Speed",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow, ranged_charm, hunter_charm"
+  },
+  {
+    "id": "ranged_projectile_velocity",
+    "title": "Ranged Projectile Velocity",
+    "value_min": 15,
+    "value_max": 25,
+    "value_type": "percentage",
+    "gear": "half_bow, longbow"
+  },
+  {
+    "id": "status_effect_dur",
+    "title": "Status Effect Duration",
+    "value_min": 10,
+    "value_max": 15,
+    "value_type": "percentage",
+    "gear": "blowgun, stealth_charm, assassin_charm, kunai, dirt_throw, sticky_bomb, caltrops"
+  },
+  {
+    "id": "status_effect_dmg",
+    "title": "Status Effect Damage",
+    "value_min": 10,
+    "value_max": 18,
+    "value_type": "percentage",
+    "gear": "blowgun, bomb_pack, stealth_charm, assassin_charm"
+  },
+  {
+    "id": "stealth_attack_dmg",
+    "title": "Stealth Attack Damage",
+    "value_min": 10,
+    "value_max": 25,
+    "value_type": "percentage",
+    "gear": "blowgun, stealth_charm, assassin_charm, smoke_bomb"
+  },
+  {
+    "id": "stealth",
+    "title": "Stealth",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "",
+    "gear": "blowgun, stealth_charm, assassin_charm, smoke_bomb"
+  },
+  {
+    "id": "blast_rad",
+    "title": "Blast Radius",
+    "value_min": 15,
+    "value_max": 25,
+    "value_type": "percentage",
+    "gear": "bomb_pack, sticky_bomb"
+  },
+  {
+    "id": "resolve_gain",
+    "title": "Resolve Gain",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "fire_dmg",
+    "title": "Fire Damage",
+    "value_min": 5,
+    "value_max": 12,
+    "value_type": "percentage",
+    "gear": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "dmg_red",
+    "title": "Damage Reduction",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "defense_charm, ronin_charm, healing_gourd"
+  },
+  {
+    "id": "inj_resolve_gain",
+    "title": "Injured Resolve Gain",
+    "value_min": 10,
+    "value_max": 25,
+    "value_type": "percentage",
+    "gear": "defense_charm, ronin_charm, healing_gourd"
+  },
+  {
+    "id": "rev_health",
+    "title": "Revive Health",
+    "value_min": 13,
+    "value_max": 25,
+    "value_type": "",
+    "gear": "defense_charm, ronin_charm"
+  },
+  {
+    "id": "ghost_offering_health",
+    "title": "Ghost Offering Health",
+    "value_min": 10,
+    "value_max": 25,
+    "value_type": "",
+    "gear": "defense_charm, ronin_charm, healing_gourd"
+  },
+  {
+    "id": "cool_red",
+    "title": "Cooldown Reduction",
+    "value_min": 5,
+    "value_max": 10,
+    "value_type": "percentage",
+    "gear": "stealth_charm, assassin_charm"
+  },
+  {
+    "id": "dmg_inc",
+    "title": "Damage Increase",
+    "value_min": 12,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "stealth_charm, assassin_charm"
+  },
+  {
+    "id": "cool_red_kill",
+    "title": "Cooldown Reduction On Kill",
+    "value_min": 1,
+    "value_max": 4,
+    "value_type": "time",
+    "gear": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops"
+  },
+  {
+    "id": "cool_red_kill_charm",
+    "title": "Cooldown Reduction On Kill (All GW)",
+    "value_min": 1,
+    "value_max": 2,
+    "value_type": "time",
+    "gear": "stealth_charm, assassin_charm"
+  },
+  {
+    "id": "cool_red",
+    "title": "Cooldown Reduction",
+    "value_min": 8,
+    "value_max": 15,
+    "value_type": "percentage",
+    "gear": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops"
+  },
+  {
+    "id": "spirit_pull_targets",
+    "title": "Spirit Pull Targe",
+    "value_min": 1,
+    "value_max": 1,
+    "value_type": "",
+    "gear": "samurai_charm"
+  },
+  {
+    "id": "explosive_blade_radius",
+    "title": "Explosive Blade Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "samurai_charm"
+  },
+  {
+    "id": "hunter_ability_radius",
+    "title": "Hunter Ability Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "hunter_charm"
+  },
+  {
+    "id": "weak_burst_radius",
+    "title": "Weakening Burst Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "ronin_charm"
+  },
+  {
+    "id": "healing_incense_radius",
+    "title": "Healing Incense Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "ronin_charm"
+  },
+  {
+    "id": "healing_incense_dur",
+    "title": "Healing Incense Duration",
+    "value_min": 20,
+    "value_max": 40,
+    "value_type": "percentage",
+    "gear": "ronin_charm"
+  },
+  {
+    "id": "healing_spirit_radius",
+    "title": "Healing Spirt Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "ronin_charm"
+  },
+  {
+    "id": "toxic_vanish_radius",
+    "title": "Toxic Vanish Radius",
+    "value_min": 50,
+    "value_max": 100,
+    "value_type": "percentage",
+    "gear": "assassin_charm"
+  },
+  {
+    "id": "vanish_duration",
+    "title": "Vanish Duration",
+    "value_min": 25,
+    "value_max": 50,
+    "value_type": "percentage",
+    "gear": "assassin_charm"
+  },
+  {
+    "id": "assassinate_from_above_damage",
+    "title": "Assassinate from above damage",
+    "value_min": 10,
+    "value_max": 20,
+    "value_type": "percentage",
+    "gear": "assassin_charm"
+  }
+]

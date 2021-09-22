@@ -1,175 +1,586 @@
 {
-  "loadout": {
-    "katana": {
-      "item": "water_katana",
-      "ki": 110,
-      "property_1": "melee_dmg",
-      "property_2": "melee_resolve_gain",
-      "perk_1": "wotf",
-      "perk_2": "burning_blade"
-    },
-    "ranged": {
-      "item": "half_bow",
-      "ki": 110,
-      "property_1": "ranged_dmg",
-      "property_2": "ranged_resolve_gain",
-      "perk_1": "headshot_refund"
-    },
-    "charm": {
-      "item": "samurai_charm",
-      "ki": 110,
-      "property_1": "melee_dmg",
-      "property_2": "melee_resolve_gain",
-      "perk_1": "combat_regeneration"
-    },
-    "ghost_weapon_1": {
-      "item": "kunai",
-      "ki": 110,
-      "property_1": "melee_dmg",
-      "property_2": "melee_resolve_gain",
-      "perk_1": "combat_regeneration"
-    },
-    "ghost_weapon_2": {
-      "item": "sticky_bomb",
-      "ki": 110,
-      "property_1": "melee_dmg",
-      "property_2": "melee_resolve_gain",
-      "perk_1": "combat_regeneration"
-    }
-  },
-  "gear_list": {
-    "wind_katana": {
-      "title": "Wind Katana",
-      "rarity": "epic",
-      "gear_type": "katana"
-    },
-    "stone_katana": {
-      "title": "Stone Katana",
-      "rarity": "epic",
-      "gear_type": "katana"
-    },
-    "moon_katana": {
-      "title": "Moon Katana",
-      "rarity": "epic",
-      "gear_type": "katana"
-    },
-    "half_bow": {
-      "title": "Half-Bow",
-      "rarity": "epic",
-      "gear_type": "ranged"
-    },
-    "samurai_charm": {
-      "title": "Samurai Charm",
-      "rarity": "epic",
-      "gear_type": "charm"
-    },
-    "utility_charm": {
-      "title": "Utility Charm",
-      "rarity": "epic",
-      "gear_type": "charm"
-    },
-    "kunai": {
-      "title": "Kunai",
-      "rarity": "epic",
-      "gear_type": "ghost_weapon_1"
-    },
-    "sticky_bomb": {
-      "title": "Sticky Bomb",
-      "rarity": "epic",
-      "gear_type": "ghost_weapon_1"
-    },
-    "healing_gourd": {
-      "title": "Healing Gourd",
-      "rarity": "epic",
-      "gear_type": "ghost_weapon_2"
-    },
-    "dirt_throw": {
-      "title": "Dirt Throw",
-      "rarity": "epic",
-      "gear_type": "ghost_weapon_2"
-    }
-  },
   "properties": {
     "melee_dmg": {
       "title": "Melee Damage",
-      "description": "Increases damage from Melee attacks.",
-      "gear_type": {
-        "katana": true,
-        "meele_charm": true,
-        "samurai_charm": true,
-        "kunai": true
-      },
       "value_min": 5,
       "value_max": 12,
-      "value_type": "percentage"
+      "value_type": "percentage",
+      "gear": "katana, melee_charm, samurai_charm, kunai",
+      "description": "Increases damage from Melee attacks."
     },
     "melee_resolve_gain": {
       "title": "Melee Resolve Gain",
-      "description": "Increases Resolve gained from Melee attacks and kills.",
-      "gear_type": {
-        "katana": true,
-        "meele_charm": true,
-        "samurai_charm": true
-      },
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage",
+      "gear": "katana, melee_charm, samurai_charm",
+      "description": "Increases Resolve gained from Melee attacks and kills."
+    },
+    "perfect_parry_window": {
+      "title": "Perfect Parry Window",
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage",
+      "gear": "katana, melee_charm, samurai_charm, dirt_throw",
+      "description": "Increases length of time that an incoming attack can be parried."
+    },
+    "melee_stagger_dmg": {
+      "title": "Melee Stagger Damage",
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage",
+      "gear": "katana, bomb_pack, melee_charm, samurai_charm, caltrops",
+      "description": "Increases base Stagger damage against enemies."
+    },
+    "counter_dmg": {
+      "title": "Counter Damage",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "katana, melee_charm, samurai_charm",
+      "description": "Increased damage on Perfect Parry and Perfect Dodge counter attacks."
+    },
+    "ult_dmg": {
+      "title": "Ultimate Damage",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm",
+      "description": "Increases base damage of the ultimate ability."
+    },
+    "ability_cool_red": {
+      "title": "Ability Cooldown Reduction",
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage",
+      "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm",
+      "description": "Reduces base cooldown of your class ability."
+    },
+    "oni_dmg": {
+      "title": "Oni Damage",
       "value_min": 5,
       "value_max": 10,
-      "value_type": "percentage"
+      "value_type": "percentage",
+      "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm",
+      "description": "Increased damage against oni targets."
+    },
+    "staggered_dmg": {
+      "title": "Staggered Damage",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "katana, ranged_charm, defense_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm, utility_charm",
+      "description": "Increased damage against Staggered targets."
     },
     "ranged_dmg": {
       "title": "Ranged Damage",
-      "description": "Increases damage from Ranged weapons.",
-      "gear_type": {
-        "half_bow": true,
-        "longbow": true,
-        "ranged_charm": true,
-        "hunter_charm": true
-      },
       "value_min": 5,
       "value_max": 12,
-      "value_type": "percentage"
+      "value_type": "percentage",
+      "gear": "half_bow, longbow, ranged_charm, hunter_charm",
+      "description": "Increases damage from Ranged weapons."
     },
     "ranged_resolve_gain": {
       "title": "Ranged Resolve Gain",
-      "description": "Increases Resolve gained from Ranged attacks and kills.",
-      "gear_type": {
-        "half_bow": true,
-        "longbow": true,
-        "ranged_charm": true,
-        "hunter_charm": true
-      },
       "value_min": 5,
       "value_max": 10,
-      "value_type": "percentage"
+      "value_type": "percentage",
+      "gear": "half_bow, longbow, ranged_charm, hunter_charm",
+      "description": "Increases Resolve gained from Ranged attacks and kills."
+    },
+    "headshot_dmg": {
+      "title": "Headshot Damage",
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage",
+      "gear": "half_bow, longbow, ranged_charm, hunter_charm",
+      "description": "Increases damage of headshots with the bow."
+    },
+    "draw_spd": {
+      "title": "Draw Speed",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "half_bow, longbow, ranged_charm, hunter_charm",
+      "description": "Increases speed of drawing the bow."
+    },
+    "reload_spd": {
+      "title": "Reload Speed",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "half_bow, longbow, ranged_charm, hunter_charm",
+      "description": "Increases speed of nocking an arrow after firing."
+    },
+    "ranged_projectile_velocity": {
+      "title": "Ranged Projectile Velocity",
+      "value_min": 15,
+      "value_max": 25,
+      "value_type": "percentage",
+      "gear": "half_bow, longbow",
+      "description": "Increases speed of projectiles."
+    },
+    "status_effect_dur": {
+      "title": "Status Effect Duration",
+      "value_min": 10,
+      "value_max": 15,
+      "value_type": "percentage",
+      "gear": "blowgun, stealth_charm, assassin_charm, kunai, dirt_throw, sticky_bomb, caltrops",
+      "description": "Increases duration of all status effects and stuns from abilities."
+    },
+    "status_effect_dmg": {
+      "title": "Status Effect Damage",
+      "value_min": 10,
+      "value_max": 18,
+      "value_type": "percentage",
+      "gear": "blowgun, bomb_pack, stealth_charm, assassin_charm",
+      "description": "Increases damage of Fire and Poison effects."
+    },
+    "stealth_attack_dmg": {
+      "title": "Stealth Attack Damage",
+      "value_min": 10,
+      "value_max": 25,
+      "value_type": "percentage",
+      "gear": "blowgun, stealth_charm, assassin_charm, smoke_bomb",
+      "description": "Increases damage of stealth attacks."
+    },
+    "stealth": {
+      "title": "Stealth",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "",
+      "gear": "blowgun, stealth_charm, assassin_charm, smoke_bomb",
+      "description": "While in stealth enemies take longer to detect you."
+    },
+    "blast_rad": {
+      "title": "Blast Radius",
+      "value_min": 15,
+      "value_max": 25,
+      "value_type": "percentage",
+      "gear": "bomb_pack, sticky_bomb",
+      "description": "Increases the size of the blast radius for bombs."
+    },
+    "resolve_gain": {
+      "title": "Resolve Gain",
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage",
+      "gear": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm",
+      "description": "Increases rate of Resolve meter gained from all sources."
+    },
+    "fire_dmg": {
+      "title": "Fire Damage",
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage",
+      "gear": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm",
+      "description": "Increases damage done from all sources of fire."
+    },
+    "dmg_red": {
+      "title": "Damage Reduction",
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage",
+      "gear": "defense_charm, ronin_charm, healing_gourd",
+      "description": "Reduces damage received from all sources."
+    },
+    "inj_resolve_gain": {
+      "title": "Injured Resolve Gain",
+      "value_min": 10,
+      "value_max": 25,
+      "value_type": "percentage",
+      "gear": "defense_charm, ronin_charm, healing_gourd",
+      "description": "Taking damage grants Resolve."
+    },
+    "rev_health": {
+      "title": "Revive Health",
+      "value_min": 13,
+      "value_max": 25,
+      "value_type": "",
+      "gear": "defense_charm, ronin_charm",
+      "description": "Increases starting health after being revived."
+    },
+    "ghost_offering_health": {
+      "title": "Ghost Offering Health",
+      "value_min": 10,
+      "value_max": 25,
+      "value_type": "",
+      "gear": "defense_charm, ronin_charm, healing_gourd",
+      "description": "Increases health restored when interacting with a Ghost Offering."
+    },
+    "cool_red": {
+      "title": "Cooldown Reduction",
+      "value_min": 8,
+      "value_max": 15,
+      "value_type": "percentage",
+      "gear": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops",
+      "description": "Reduces the base cooldown of this weapon."
+    },
+    "dmg_inc": {
+      "title": "Damage Increase",
+      "value_min": 12,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "stealth_charm, assassin_charm",
+      "description": "Increases damage of all Ghost Weapons."
+    },
+    "cool_red_kill": {
+      "title": "Cooldown Reduction On Kill",
+      "value_min": 1,
+      "value_max": 4,
+      "value_type": "time",
+      "gear": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops",
+      "description": "Any kill reduces the cooldown of this weapon."
+    },
+    "cool_red_kill_charm": {
+      "title": "Cooldown Reduction On Kill (All GW)",
+      "value_min": 1,
+      "value_max": 2,
+      "value_type": "time",
+      "gear": "stealth_charm, assassin_charm",
+      "description": "Any kill reduces the cooldown of all Ghost Weapons."
+    },
+    "spirit_pull_targets": {
+      "title": "Spirit Pull Targe",
+      "value_min": 1,
+      "value_max": 1,
+      "value_type": "",
+      "gear": "samurai_charm",
+      "description": "Increases number of targets that Spirit Pull affects."
+    },
+    "explosive_blade_radius": {
+      "title": "Explosive Blade Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "samurai_charm",
+      "description": "Increases radius of Explosive Blade."
+    },
+    "hunter_ability_radius": {
+      "title": "Hunter Ability Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "hunter_charm",
+      "description": "Increases radius of Staggering Arrow and Explosive Arrow."
+    },
+    "weak_burst_radius": {
+      "title": "Weakening Burst Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "ronin_charm",
+      "description": "Increased radius of Weakening Burst."
+    },
+    "healing_incense_radius": {
+      "title": "Healing Incense Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "ronin_charm",
+      "description": "Increased radius of Healing Incense."
+    },
+    "healing_incense_dur": {
+      "title": "Healing Incense Duration",
+      "value_min": 20,
+      "value_max": 40,
+      "value_type": "percentage",
+      "gear": "ronin_charm",
+      "description": "Increased duration of Healing Incense."
+    },
+    "healing_spirit_radius": {
+      "title": "Healing Spirt Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "ronin_charm",
+      "description": "Increased radius of Healing Spirit."
+    },
+    "toxic_vanish_radius": {
+      "title": "Toxic Vanish Radius",
+      "value_min": 50,
+      "value_max": 100,
+      "value_type": "percentage",
+      "gear": "assassin_charm",
+      "description": "Increases radius of Toxic Vanish."
+    },
+    "vanish_duration": {
+      "title": "Vanish Duration",
+      "value_min": 25,
+      "value_max": 50,
+      "value_type": "percentage",
+      "gear": "assassin_charm",
+      "description": "Increases duration of Vanish."
+    },
+    "assassinate_from_above_damage": {
+      "title": "Assassinate from above damage",
+      "value_min": 10,
+      "value_max": 20,
+      "value_type": "percentage",
+      "gear": "assassin_charm",
+      "description": "Increases damage when Assassinating enemies from above."
     }
   },
   "perks": {
+    "burning_blade": {
+      "title": "Burning Blade",
+      "description": "Melee attacks have a chance to apply the Burning effect.",
+      "gear_type": "katana"
+    },
+    "poison_blade": {
+      "title": "Poison Blade",
+      "description": "Melee attacks have a chance to apply the Poison effect.",
+      "gear_type": "katana"
+    },
     "wotf": {
       "title": "Way of the Flame",
       "description": "Ignite the katana to apply Burning damage to Melee attacks for a short time (R1+O).",
-      "gear_type": {
-        "katana": true
-      }
+      "gear_type": "katana"
+    },
+    "intimidating_counter": {
+      "title": "Intimidating Counter",
+      "description": "Perfect Parry counter attacks have a 50% chance to also deal damage to nearby foes.",
+      "gear_type": "katana"
+    },
+    "stone_stance": {
+      "title": "Stone Stance",
+      "description": "Allows switching to Stone Stance (R2+X).",
+      "gear_type": "katana"
+    },
+    "water_stance": {
+      "title": "Water Stance",
+      "description": "Allows switching to Water Stance (R2+O).",
+      "gear_type": "katana"
+    },
+    "wind_stance": {
+      "title": "Wind Stance",
+      "description": "Allows switching to Wind Stance (R2+Triangle).",
+      "gear_type": "katana"
+    },
+    "moon_stance": {
+      "title": "Moon Stance",
+      "description": "Allows switching to Moon Stance (R2+Square).",
+      "gear_type": "katana"
+    },
+    "stone_master": {
+      "title": "Stone Master",
+      "description": "Perform Stone Stance heavy attacks with ferocious speed, and the final attack does increased damage.",
+      "gear_type": "katana"
+    },
+    "water_master": {
+      "title": "Water Master",
+      "description": "Inflict increasing damage with each attack in your Surging Strikes.",
+      "gear_type": "katana"
+    },
+    "wind_master": {
+      "title": "Wind Master",
+      "description": "Typhoon Kick deals increased Stagger damage and causes knock down.",
+      "gear_type": "katana"
+    },
+    "moon_master": {
+      "title": "Moon Master",
+      "description": "Spinning Strike can combo 3 times. The final attack in the Heavy Strike combo deals increased damage.",
+      "gear_type": "katana"
+    },
+    "poisoned_ammo": {
+      "title": "Poisoned Ammo",
+      "description": "Bow attacks have a chance to apply the Poison effect.",
+      "gear_type": "half_bow, longbow"
+    },
+    "sharpened_ammo": {
+      "title": "Sharpened Ammo",
+      "description": "Ranged attacks have a chance to apply the Bleed effect.",
+      "gear_type": "half_bow, blowgun, longbow"
     },
     "headshot_refund": {
       "title": "Headshot Refund",
       "description": "Instantly recover non-special ammo when landing a headshot from this weapon.",
-      "gear_type": {
-        "half_bow": true
-      }
+      "gear_type": "half_bow, longbow"
+    },
+    "helmet_piercing_ammo": {
+      "title": "Helmet Piercing Ammo",
+      "description": "Ammo from this weapon pierces helmets.",
+      "gear_type": "half_bow, blowgun, longbow"
+    },
+    "shield_piercing_ammo": {
+      "title": "Shield Piercing Ammo",
+      "description": "Ammo from this weapon pierces shields.",
+      "gear_type": "half_bow, blowgun, longbow"
+    },
+    "throwing_shot": {
+      "title": "Throwing Shot",
+      "description": "Arrows fired with a full draw cause knock back on hit.",
+      "gear_type": "longbow"
+    },
+    "sharpshooter": {
+      "title": "Sharpshooter",
+      "description": "Increase zoom by 100%.",
+      "gear_type": "longbow"
+    },
+    "eagle_eye": {
+      "title": "Eagle Eye",
+      "description": "Increase zoom by 200%.",
+      "gear_type": "longbow"
+    },
+    "versatile": {
+      "title": "Versatile",
+      "description": "Can be used by any class.",
+      "gear_type": "longbow"
+    },
+    "hallucination_darts": {
+      "title": "Hallucination Darts",
+      "description": "Hallucination darts can now be equipped and cause enemies to blindly attack one another.",
+      "gear_type": "blowgun"
+    },
+    "ronin_unlock": {
+      "title": "Ronin Unlock",
+      "description": "Can be used by the Ronin.",
+      "gear_type": "blowgun"
+    },
+    "flash_bomb": {
+      "title": "Flash Bomb",
+      "description": "Adds Flash Bombs to the Bomb Pack (L2+Triangle).",
+      "gear_type": "bomb_pack"
+    },
+    "black_powder_bomb": {
+      "title": "Black Powder Bomb",
+      "description": "Add Black Powder Bombs to your bomb pack (L2+O).",
+      "gear_type": "bomb_pack"
+    },
+    "assassin_unlock": {
+      "title": "Assassin Unlock",
+      "description": "Can be used by the Assassin.",
+      "gear_type": "bomb_pack"
     },
     "combat_regeneration": {
       "title": "Combat Regeneration",
       "description": "Health regenerates up to 50 max health. Healing rate reduced by half when in combat.",
-      "gear_type": {
-        "katana": true
-      }
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
     },
-    "burning_blade": {
-      "title": "Burning Blade",
-      "description": "Melee attacks have a chance to apply the Burning effect.",
-      "gear_type": {
-        "katana": true
-      }
+    "leeching_parry": {
+      "title": "Leeching Parry",
+      "description": "A Perfect Parry restores a small amount of health and refills your Resolve faster.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "fire_master": {
+      "title": "Fire Master",
+      "description": "Increase fire damage by 25%.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "health_increase": {
+      "title": "Health Increase",
+      "description": "Increase max health by 25.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "resolve_increase": {
+      "title": "Resolve Increase",
+      "description": "Increase maximum Resolve by 1.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "super_armor": {
+      "title": "Super Armor",
+      "description": "You are no longer interrupted by melee attacks and can attack through damage.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "impactful_throws": {
+      "title": "Impactful Throws",
+      "description": "Throwing an enemy through the air causes them to be knocked down for a short time and vulnerable to critical strikes.",
+      "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+    },
+    "rising_tempo": {
+      "title": "Rising Tempo",
+      "description": "Successive kills without taking damage increases damage dealt.",
+      "gear_type": "samurai_charm"
+    },
+    "blessed_strikes": {
+      "title": "Blessed Arrows",
+      "description": "Headshots also heal nearby allies.",
+      "gear_type": "hunter_charm"
+    },
+    "foul_arrows": {
+      "title": "Foul Arrows",
+      "description": "Headshots also apply Weaken to the target.",
+      "gear_type": "hunter_charm"
+    },
+    "scavenger": {
+      "title": "Scavenger",
+      "description": "Increase ammo scavenged from pickups by 100%.",
+      "gear_type": "hunter_charm"
+    },
+    "spirit_bear": {
+      "title": "Spirit Bear",
+      "description": "Ronin's Spirit Animal summons a bear instead of a dog.",
+      "gear_type": "ronin_charm"
+    },
+    "healing_spirit": {
+      "title": "Healing Spirit",
+      "description": "Ronin's Spirit Animal has a healing aura.",
+      "gear_type": "ronin_charm"
+    },
+    "chain_vanish": {
+      "title": "Chain Vanish",
+      "description": "Successfully assassinating an enemy whil vanished re-activates vanish and refreshes the duration (Stacks with Chain Vanish perk).",
+      "gear_type": "assassin_charm"
+    },
+    "hysteria": {
+      "title": "Hysteria",
+      "description": "Assassinations cause nearby enemies to hallucinate.",
+      "gear_type": "assassin_charm"
+    },
+    "fired_up": {
+      "title": "Fired Up",
+      "description": "Lights targets on fire.",
+      "gear_type": "kunai, dirt_throw, sticky_bomb, caltrops"
+    },
+    "lucky": {
+      "title": "Lucky",
+      "description": "15% chance to instantly reset cooldown on use.",
+      "gear_type": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops"
+    },
+    "super_massive": {
+      "title": "Super Massive",
+      "description": "Deals extra damage and causes lighter enemies to get thrown back when hit.",
+      "gear_type": "kunai"
+    },
+    "hidden_blades": {
+      "title": "Hidden Blades",
+      "description": "Throw 5 Kunai at once.",
+      "gear_type": "kunai"
+    },
+    "rancid": {
+      "title": "Rancid",
+      "description": "Applies weaken on hit.",
+      "gear_type": "dirt_throw"
+    },
+    "increased_radius": {
+      "title": "Increased Radius",
+      "description": "Radius increased by 50%.",
+      "gear_type": "sticky_bomb"
+    },
+    "munitions": {
+      "title": "Munitions",
+      "description": "Creates random ammo pickups on use.",
+      "gear_type": "smoke_bomb"
+    },
+    "sudden_resolve": {
+      "title": "Sudden Resolve",
+      "description": "Fills the first Resolve on use.",
+      "gear_type": "smoke_bomb, healing_gourd"
+    },
+    "black_powder": {
+      "title": "Black Powder",
+      "description": "When the Smoke Bomb detonates, nearby enemies are thrown backward.",
+      "gear_type": "smoke_bomb"
+    },
+    "strong_brew": {
+      "title": "Strong Brew",
+      "description": "Healing increased by 50%",
+      "gear_type": "healing_gourd"
+    },
+    "deep_bags": {
+      "title": "Deep Bags",
+      "description": "Increased radius and number of Caltrops.",
+      "gear_type": "caltrops"
     }
   }
 }

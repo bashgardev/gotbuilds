@@ -1,0 +1,85 @@
+{
+  "properties": {
+    "melee_dmg": {
+      "title": "Melee Damage",
+      "description": "Increases damage from Melee attacks.",
+      "gear_type": {
+        "katana": true,
+        "meele_charm": true,
+        "samurai_charm": true,
+        "kunai": true
+      },
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage"
+    },
+    "melee_resolve_gain": {
+      "title": "Melee Resolve Gain",
+      "description": "Increases Resolve gained from Melee attacks and kills.",
+      "gear_type": {
+        "katana": true,
+        "meele_charm": true,
+        "samurai_charm": true
+      },
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage"
+    },
+    "ranged_dmg": {
+      "title": "Ranged Damage",
+      "description": "Increases damage from Ranged weapons.",
+      "gear_type": {
+        "half_bow": true,
+        "longbow": true,
+        "ranged_charm": true,
+        "hunter_charm": true
+      },
+      "value_min": 5,
+      "value_max": 12,
+      "value_type": "percentage"
+    },
+    "ranged_resolve_gain": {
+      "title": "Ranged Resolve Gain",
+      "description": "Increases Resolve gained from Ranged attacks and kills.",
+      "gear_type": {
+        "half_bow": true,
+        "longbow": true,
+        "ranged_charm": true,
+        "hunter_charm": true
+      },
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage"
+    }
+  },
+  "perks": {
+    "wotf": {
+      "title": "Way of the Flame",
+      "description": "Ignite the katana to apply Burning damage to Melee attacks for a short time (R1+O).",
+      "gear_type": {
+        "katana": true
+      }
+    },
+    "headshot_refund": {
+      "title": "Headshot Refund",
+      "description": "Instantly recover non-special ammo when landing a headshot from this weapon.",
+      "gear_type": {
+        "half_bow": true
+      }
+    },
+    "combat_regeneration": {
+      "title": "Combat Regeneration",
+      "description": "Health regenerates up to 50 max health. Healing rate reduced by half when in combat.",
+      "gear_type": {
+        "katana": true
+      }
+    },
+    "burning_blade": {
+      "title": "Burning Blade",
+      "description": "Melee attacks have a chance to apply the Burning effect.",
+      "gear_type": {
+        "katana": true
+      }
+    }
+  }
+}

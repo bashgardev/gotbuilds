@@ -1,21 +1,19 @@
-import React, { useState } from "react";
+import React, { useContext } from "react";
 import Slot from "./Slot";
-import loadout from "../db/loadout.json";
 import Hero from "./Hero";
+import { LoadoutContext } from "../context/LoadoutContext";
 
 export default function Build() {
-  const build = loadout.loadout.build;
-  const [currentBuild, setCurrentBuild] = useState(build);
+  const { currentLoadout } = useContext(LoadoutContext);
 
   return (
-    <div className="">
+    <div className="background-pattern-2">
       <Hero />
-      <Slot type="katana" value={currentBuild} changebuild={setCurrentBuild} />
-      <Slot type="ranged" value={currentBuild} />
-      <Slot type="charm" value={currentBuild} />
-      <Slot type="ghost_weapon_1" value={currentBuild} />
-      <Slot type="ghost_weapon_2" value={currentBuild} />
-      {/* {JSON.stringify(currentBuild)} */}
+      <Slot type="katana" value={currentLoadout.build} />
+      <Slot type="ranged" value={currentLoadout.build} />
+      <Slot type="charm" value={currentLoadout.build} />
+      <Slot type="ghost_weapon_1" value={currentLoadout.build} />
+      <Slot type="ghost_weapon_2" value={currentLoadout.build} />
     </div>
   );
 }

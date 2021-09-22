@@ -1056,6 +1056,13 @@ module.exports = {
       borderWidth: {
         3: "3px",
       },
+      colors: {
+        epic: "var(--color-epic)",
+        "epic-dark": "var(--color-epic-dark)",
+        legendary: "var(--color-legendary)",
+        "legendary-dark": "var(--color-legendary-dark)",
+        "bg-primary": "var(--color-bg-primary)",
+      },
     },
   },
   variants: {

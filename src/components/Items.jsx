@@ -1,15 +1,13 @@
-import React from "react";
-import items from "../db/items.json";
+import React, { useContext } from "react";
+import { LoadoutContext } from "../context/LoadoutContext";
 
-export default function Items() {
-  const itemlist = items;
+export default function CurrentLoadoutJSON() {
+  const { currentLoadout } = useContext(LoadoutContext);
   return (
     <div className="text-white">
-      {itemlist.map((item) => (
-        <div
-          key={item.id}
-        >{`id: ${item.id} title: ${item.title} function: ${item.function}`}</div>
-      ))}
+      <div>
+        <pre>{JSON.stringify(currentLoadout, null, 2)}</pre>
+      </div>
     </div>
   );
 }
