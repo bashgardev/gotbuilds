@@ -1,13 +1,13 @@
 import React from "react";
-import { Listbox, Popover } from "@headlessui/react";
+import { Popover } from "@headlessui/react";
 import SelectorPropertyButton from "./SelectorPropertyButton";
-import { LoadoutContext } from "../context/LoadoutContext";
-import { useContext } from "react";
+// import { LoadoutContext } from "../context/LoadoutContext";
+// import { useContext } from "react";
 
 export default function PropertySelectPopover(props) {
   const items = props.data;
 
-  const { currentLoadout, setCurrentLoadout } = useContext(LoadoutContext);
+  // const { currentLoadout, setCurrentLoadout } = useContext(LoadoutContext);
   // console.log(items);
   return (
     <Popover className="relative">

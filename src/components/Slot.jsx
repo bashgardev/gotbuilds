@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react";
+import React, { useContext } from "react";
 import Tippy from "@tippyjs/react";
 import "tippy.js/dist/tippy.css";
 import db from "../db/db.json";
@@ -7,7 +7,7 @@ import items from "../db/items.json";
 import "../styles/themes/dark.css";
 // import Ki from "./Ki";
 import SelectorPropertyButton from "./SelectorPropertyButton";
-import PropertySelectPopover from "./PropertySelectPopover";
+// import PropertySelectPopover from "./PropertySelectPopover";
 import { LoadoutContext } from "../context/LoadoutContext";
 import { Listbox } from "@headlessui/react";
 import SelectorButton from "./SelectorButton";
@@ -23,7 +23,7 @@ export default function Slot(props) {
     .map((item) => item);
 
   // Determine properties compatible with the item selected
-  const compatibleProperties = properties;
+  // const compatibleProperties = properties;
 
   const itemInfo = items.filter(
     (item) => item.id === currentLoadout[slotType].item
