@@ -1,6 +1,6 @@
 import React from "react";
 import Build from "./Build";
-import CurrentLoadoutJSON from "./Items";
+import CurrentLoadoutJSON from "./CurrentLoadoutJSON";
 import { LoadoutContextProvider } from "../context/LoadoutContext";
 
 export default function Loadout() {
