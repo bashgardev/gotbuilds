@@ -66,8 +66,8 @@ export default function Slot(props) {
   }
 
   return (
-    <div id="" className=" grid md:grid-cols-2  text-lg  ">
-      <div className="relative border-t-2 border-white border-opacity-30  flex-none flex self-start text-white pr-8 ">
+    <div id="" className=" grid md:grid-cols-2   ">
+      <div className="relative border-t-2 border-white border-opacity-30 shadow-2xl md:shadow-none flex-none flex self-start text-white pr-8 ">
         <div
           className={`bg-gradient-to-br from-${rarity} to-black p-0.5 shadow-md flex-none   m-2`}
         >
@@ -97,7 +97,7 @@ export default function Slot(props) {
               <SelectorButton />
             </Listbox.Button>
 
-            <Listbox.Options className=" absolute top-10 right-10 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
+            <Listbox.Options className=" absolute overflow-y-scroll max-h-screen top-14 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
               {compatibleItems.map((item) => (
                 <Listbox.Option key={item.id} value={item}>
                   <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
@@ -124,20 +124,24 @@ export default function Slot(props) {
         <div className="table w-full">
           <div className="table-row-group text-white text-opacity-80">
             <div className="table-row">
-              <Tippy
-                className="p-1 font-urbanist font-medium"
-                placement="bottom"
-                content={property_1_description}
-                theme="dark"
-              >
-                <div className="table-cell">{property_1_title}</div>
-              </Tippy>
+              <div className="table-cell w-full">
+                <Tippy
+                  className="p-1 font-urbanist font-medium"
+                  placement="bottom"
+                  content={property_1_description}
+                  theme="dark"
+                >
+                  <span>{property_1_title}</span>
+                </Tippy>
+              </div>
 
-              <div className="table-cell text-right">{property_1_values}</div>
+              <div className="table-cell text-right whitespace-nowrap pl-2">
+                {property_1_values}
+              </div>
               <div className="table-cell">
                 <Listbox
                   as="div"
-                  className="relative top-0 right-0"
+                  className="relative text-right pr-2"
                   value={currentLoadout[slotType].property_1}
                   onChange={(value) =>
                     setCurrentLoadout((prevState) => {
@@ -151,11 +155,16 @@ export default function Slot(props) {
                     <SelectorPropertyButton />
                   </Listbox.Button>
 
-                  <Listbox.Options className=" absolute top-10 right-10 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
+                  <Listbox.Options className=" absolute overflow-y-scroll max-h-screen top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
                     {properties.map((property) => (
                       <Listbox.Option key={property.id} value={property}>
-                        <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <div className="  whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {property.title}
+                          <div className="ml-10">
+                            {`+ ${property.value_min} - ${property.value_max} ${
+                              property.value_type === "percentage" ? "%" : "s"
+                            }`}
+                          </div>
                         </div>
                       </Listbox.Option>
                     ))}
@@ -165,14 +174,16 @@ export default function Slot(props) {
             </div>
 
             <div className="table-row ">
-              <Tippy
-                className="p-1 font-urbanist font-medium"
-                placement="bottom"
-                content={property_2_description}
-                theme="dark"
-              >
-                <div className="table-cell">{property_2_title}</div>
-              </Tippy>
+              <div className="table-cell">
+                <Tippy
+                  className="p-1 font-urbanist font-medium"
+                  placement="bottom"
+                  content={property_2_description}
+                  theme="dark"
+                >
+                  <span>{property_2_title}</span>
+                </Tippy>
+              </div>
 
               <div className="table-cell text-right whitespace-nowrap">
                 {property_2_values}
@@ -180,7 +191,7 @@ export default function Slot(props) {
               <div className="table-cell">
                 <Listbox
                   as="div"
-                  className="relative top-0 right-0"
+                  className="relative text-right pr-2"
                   value={currentLoadout[slotType].property_2}
                   onChange={(value) =>
                     setCurrentLoadout((prevState) => {
@@ -194,11 +205,16 @@ export default function Slot(props) {
                     <SelectorPropertyButton />
                   </Listbox.Button>
 
-                  <Listbox.Options className=" absolute top-10 right-10 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
+                  <Listbox.Options className="overflow-y-scroll max-h-screen absolute top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
                     {properties.map((property) => (
                       <Listbox.Option key={property.id} value={property}>
-                        <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <div className="  whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {property.title}
+                          <div className="ml-10">
+                            {`+ ${property.value_min} - ${property.value_max} ${
+                              property.value_type === "percentage" ? "%" : "s"
+                            }`}
+                          </div>
                         </div>
                       </Listbox.Option>
                     ))}
@@ -208,7 +224,7 @@ export default function Slot(props) {
             </div>
 
             <div className="table-row ">
-              <div className="table-cell text-red-600 text-xl whitespace-nowrap">
+              <div className="table-cell text-red-600 whitespace-nowrap">
                 <Tippy
                   className="p-1 font-urbanist font-medium"
                   placement="bottom"
@@ -217,7 +233,7 @@ export default function Slot(props) {
                 >
                   <span>{perk_1_title}</span>
                 </Tippy>
-
+                <SelectorPropertyButton />
                 {/* <Listbox
                   as="div"
                   className="relative top-0 right-0"
@@ -248,7 +264,7 @@ export default function Slot(props) {
             </div>
 
             <div className="table-row">
-              <div className="table-cell text-red-600 text-xl">
+              <div className="table-cell text-red-600">
                 <Tippy
                   className="p-1 font-urbanist font-medium"
                   placement="bottom"

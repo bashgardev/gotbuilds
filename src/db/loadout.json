@@ -1,4 +1,8 @@
 {
+  "v": "1",
+  "name": "Fire Master Samurai",
+  "author": "bashgar",
+  "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   "class": "samurai",
   "ability": "ability_1",
   "tech_1": "tech_1",
@@ -6,7 +10,6 @@
   "tech_3": "tech_3",
   "katana": {
     "item": "masamunes_edge",
-    "ki": 110,
     "property_1": "melee_dmg",
     "property_2": "oni_dmg",
     "perk_1": "wotf",
@@ -14,28 +17,24 @@
   },
   "ranged": {
     "item": "half_bow",
-    "ki": 110,
     "property_1": "ranged_dmg",
     "property_2": "ranged_resolve_gain",
     "perk_1": "headshot_refund"
   },
   "charm": {
     "item": "samurai_charm",
-    "ki": 110,
     "property_1": "inj_resolve_gain",
     "property_2": "ult_dmg",
     "perk_1": "combat_regeneration"
   },
   "ghost_weapon_1": {
     "item": "kunai",
-    "ki": 110,
     "property_1": "melee_dmg",
     "property_2": "cool_red_kill",
     "perk_1": "super_massive"
   },
   "ghost_weapon_2": {
     "item": "healing_gourd",
-    "ki": 110,
     "property_1": "cool_red",
     "property_2": "cool_red_kill",
     "perk_1": "lucky"

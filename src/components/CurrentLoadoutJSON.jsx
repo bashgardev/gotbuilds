@@ -11,7 +11,7 @@ export default function CurrentLoadoutJSON() {
   );
 
   function makeBlueprint(data) {
-    return base64url.encode(zlib.deflateSync(data));
+    return base64url.encode(zlib.deflateSync(data, { level: 9 }));
   }
 
   useEffect(() => {
@@ -20,7 +20,9 @@ export default function CurrentLoadoutJSON() {
 
   return (
     <div className="text-white text-sm flex-wrap pl-4">
-      <pre>{JSON.stringify(currentLoadout, null, 2)}</pre>
+      <pre className="font-urbanist">
+        {JSON.stringify(currentLoadout, null, 2)}
+      </pre>
       <div className="flex flex-col">
         <span>Loadout Blueprint String:</span>
         <span className="break-all">{blueprintString}</span>
