@@ -4,10 +4,11 @@
   "author": "bashgar",
   "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit",
   "class": "samurai",
-  "ability": "ability_1",
-  "tech_1": "tech_1",
-  "tech_2": "tech_2",
-  "tech_3": "tech_3",
+  "ult": "1",
+  "ability": "2",
+  "tech_1": "1",
+  "tech_2": "1",
+  "tech_3": "1",
   "katana": {
     "item": "masamunes_edge",
     "property_1": "melee_dmg",
@@ -19,24 +20,28 @@
     "item": "half_bow",
     "property_1": "ranged_dmg",
     "property_2": "ranged_resolve_gain",
-    "perk_1": "headshot_refund"
+    "perk_1": "headshot_refund",
+    "perk_2": "none"
   },
   "charm": {
     "item": "samurai_charm",
     "property_1": "inj_resolve_gain",
     "property_2": "ult_dmg",
-    "perk_1": "combat_regeneration"
+    "perk_1": "combat_regeneration",
+    "perk_2": "none"
   },
   "ghost_weapon_1": {
     "item": "kunai",
     "property_1": "melee_dmg",
     "property_2": "cool_red_kill",
-    "perk_1": "super_massive"
+    "perk_1": "super_massive",
+    "perk_2": "none"
   },
   "ghost_weapon_2": {
     "item": "healing_gourd",
     "property_1": "cool_red",
     "property_2": "cool_red_kill",
-    "perk_1": "lucky"
+    "perk_1": "lucky",
+    "perk_2": "none"
   }
 }

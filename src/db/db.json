@@ -322,6 +322,7 @@
     }
   },
   "perks": {
+    "none": { "title": "-", "description": "No perk selected" },
     "burning_blade": {
       "title": "Burning Blade",
       "description": "Melee attacks have a chance to apply the Burning effect.",

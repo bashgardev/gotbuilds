@@ -1,0 +1,321 @@
+[
+  { "id": "none", "title": "-", "description": "No perk selected" },
+  {
+    "id": "burning_blade",
+    "title": "Burning Blade",
+    "description": "Melee attacks have a chance to apply the Burning effect.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "poison_blade",
+    "title": "Poison Blade",
+    "description": "Melee attacks have a chance to apply the Poison effect.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "wotf",
+    "title": "Way of the Flame",
+    "description": "Ignite the katana to apply Burning damage to Melee attacks for a short time (R1+O).",
+    "gear_type": "katana"
+  },
+  {
+    "id": "intimidating_counter",
+    "title": "Intimidating Counter",
+    "description": "Perfect Parry counter attacks have a 50% chance to also deal damage to nearby foes.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "stone_stance",
+    "title": "Stone Stance",
+    "description": "Allows switching to Stone Stance (R2+X).",
+    "gear_type": "katana"
+  },
+  {
+    "id": "water_stance",
+    "title": "Water Stance",
+    "description": "Allows switching to Water Stance (R2+O).",
+    "gear_type": "katana"
+  },
+  {
+    "id": "wind_stance",
+    "title": "Wind Stance",
+    "description": "Allows switching to Wind Stance (R2+Triangle).",
+    "gear_type": "katana"
+  },
+  {
+    "id": "moon_stance",
+    "title": "Moon Stance",
+    "description": "Allows switching to Moon Stance (R2+Square).",
+    "gear_type": "katana"
+  },
+  {
+    "id": "stone_master",
+    "title": "Stone Master",
+    "description": "Perform Stone Stance heavy attacks with ferocious speed, and the final attack does increased damage.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "water_master",
+    "title": "Water Master",
+    "description": "Inflict increasing damage with each attack in your Surging Strikes.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "wind_master",
+    "title": "Wind Master",
+    "description": "Typhoon Kick deals increased Stagger damage and causes knock down.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "moon_master",
+    "title": "Moon Master",
+    "description": "Spinning Strike can combo 3 times. The final attack in the Heavy Strike combo deals increased damage.",
+    "gear_type": "katana"
+  },
+  {
+    "id": "poisoned_ammo",
+    "title": "Poisoned Ammo",
+    "description": "Bow attacks have a chance to apply the Poison effect.",
+    "gear_type": "half_bow, longbow"
+  },
+  {
+    "id": "sharpened_ammo",
+    "title": "Sharpened Ammo",
+    "description": "Ranged attacks have a chance to apply the Bleed effect.",
+    "gear_type": "half_bow, blowgun, longbow"
+  },
+  {
+    "id": "headshot_refund",
+    "title": "Headshot Refund",
+    "description": "Instantly recover non-special ammo when landing a headshot from this weapon.",
+    "gear_type": "half_bow, longbow"
+  },
+  {
+    "id": "helmet_piercing_ammo",
+    "title": "Helmet Piercing Ammo",
+    "description": "Ammo from this weapon pierces helmets.",
+    "gear_type": "half_bow, blowgun, longbow"
+  },
+  {
+    "id": "shield_piercing_ammo",
+    "title": "Shield Piercing Ammo",
+    "description": "Ammo from this weapon pierces shields.",
+    "gear_type": "half_bow, blowgun, longbow"
+  },
+  {
+    "id": "throwing_shot",
+    "title": "Throwing Shot",
+    "description": "Arrows fired with a full draw cause knock back on hit.",
+    "gear_type": "longbow"
+  },
+  {
+    "id": "sharpshooter",
+    "title": "Sharpshooter",
+    "description": "Increase zoom by 100%.",
+    "gear_type": "longbow"
+  },
+  {
+    "id": "eagle_eye",
+    "title": "Eagle Eye",
+    "description": "Increase zoom by 200%.",
+    "gear_type": "longbow"
+  },
+  {
+    "id": "versatile",
+    "title": "Versatile",
+    "description": "Can be used by any class.",
+    "gear_type": "longbow"
+  },
+  {
+    "id": "hallucination_darts",
+    "title": "Hallucination Darts",
+    "description": "Hallucination darts can now be equipped and cause enemies to blindly attack one another.",
+    "gear_type": "blowgun"
+  },
+  {
+    "id": "ronin_unlock",
+    "title": "Ronin Unlock",
+    "description": "Can be used by the Ronin.",
+    "gear_type": "blowgun"
+  },
+  {
+    "id": "flash_bomb",
+    "title": "Flash Bomb",
+    "description": "Adds Flash Bombs to the Bomb Pack (L2+Triangle).",
+    "gear_type": "bomb_pack"
+  },
+  {
+    "id": "black_powder_bomb",
+    "title": "Black Powder Bomb",
+    "description": "Add Black Powder Bombs to your bomb pack (L2+O).",
+    "gear_type": "bomb_pack"
+  },
+  {
+    "id": "assassin_unlock",
+    "title": "Assassin Unlock",
+    "description": "Can be used by the Assassin.",
+    "gear_type": "bomb_pack"
+  },
+  {
+    "id": "combat_regeneration",
+    "title": "Combat Regeneration",
+    "description": "Health regenerates up to 50 max health. Healing rate reduced by half when in combat.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "leeching_parry",
+    "title": "Leeching Parry",
+    "description": "A Perfect Parry restores a small amount of health and refills your Resolve faster.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "fire_master",
+    "title": "Fire Master",
+    "description": "Increase fire damage by 25%.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "health_increase",
+    "title": "Health Increase",
+    "description": "Increase max health by 25.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "resolve_increase",
+    "title": "Resolve Increase",
+    "description": "Increase maximum Resolve by 1.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "super_armor",
+    "title": "Super Armor",
+    "description": "You are no longer interrupted by melee attacks and can attack through damage.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "impactful_throws",
+    "title": "Impactful Throws",
+    "description": "Throwing an enemy through the air causes them to be knocked down for a short time and vulnerable to critical strikes.",
+    "gear_type": "ranged_charm, defense_charm, utility_charm, melee_charm, stealth_charm, samurai_charm, hunter_charm, ronin_charm, assassin_charm"
+  },
+  {
+    "id": "rising_tempo",
+    "title": "Rising Tempo",
+    "description": "Successive kills without taking damage increases damage dealt.",
+    "gear_type": "samurai_charm"
+  },
+  {
+    "id": "blessed_strikes",
+    "title": "Blessed Strikes",
+    "description": "Dealing Melee damage heals you while Spirit Pull or Exploding Blade are active.",
+    "gear_type": "samurai_charm"
+  },
+  {
+    "id": "foul_arrows",
+    "title": "Foul Arrows",
+    "description": "Headshots also apply Weaken to the target.",
+    "gear_type": "hunter_charm"
+  },
+  {
+    "id": "blessed_strikes",
+    "title": "Blessed Arrows",
+    "description": "Headshots also heal nearby allies.",
+    "gear_type": "hunter_charm"
+  },
+  {
+    "id": "scavenger",
+    "title": "Scavenger",
+    "description": "Increase ammo scavenged from pickups by 100%.",
+    "gear_type": "hunter_charm"
+  },
+  {
+    "id": "spirit_bear",
+    "title": "Spirit Bear",
+    "description": "Ronin's Spirit Animal summons a bear instead of a dog.",
+    "gear_type": "ronin_charm"
+  },
+  {
+    "id": "healing_spirit",
+    "title": "Healing Spirit",
+    "description": "Ronin's Spirit Animal has a healing aura.",
+    "gear_type": "ronin_charm"
+  },
+  {
+    "id": "chain_vanish",
+    "title": "Chain Vanish",
+    "description": "Successfully assassinating an enemy whil vanished re-activates vanish and refreshes the duration (Stacks with Chain Vanish perk).",
+    "gear_type": "assassin_charm"
+  },
+  {
+    "id": "hysteria",
+    "title": "Hysteria",
+    "description": "Assassinations cause nearby enemies to hallucinate.",
+    "gear_type": "assassin_charm"
+  },
+  {
+    "id": "fired_up",
+    "title": "Fired Up",
+    "description": "Lights targets on fire.",
+    "gear_type": "kunai, dirt_throw, sticky_bomb, caltrops"
+  },
+  {
+    "id": "lucky",
+    "title": "Lucky",
+    "description": "15% chance to instantly reset cooldown on use.",
+    "gear_type": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops"
+  },
+  {
+    "id": "super_massive",
+    "title": "Super Massive",
+    "description": "Deals extra damage and causes lighter enemies to get thrown back when hit.",
+    "gear_type": "kunai"
+  },
+  {
+    "id": "hidden_blades",
+    "title": "Hidden Blades",
+    "description": "Throw 5 Kunai at once.",
+    "gear_type": "kunai"
+  },
+  {
+    "id": "rancid",
+    "title": "Rancid",
+    "description": "Applies weaken on hit.",
+    "gear_type": "dirt_throw"
+  },
+  {
+    "id": "increased_radius",
+    "title": "Increased Radius",
+    "description": "Radius increased by 50%.",
+    "gear_type": "sticky_bomb"
+  },
+  {
+    "id": "munitions",
+    "title": "Munitions",
+    "description": "Creates random ammo pickups on use.",
+    "gear_type": "smoke_bomb"
+  },
+  {
+    "id": "sudden_resolve",
+    "title": "Sudden Resolve",
+    "description": "Fills the first Resolve on use.",
+    "gear_type": "smoke_bomb, healing_gourd"
+  },
+  {
+    "id": "black_powder",
+    "title": "Black Powder",
+    "description": "When the Smoke Bomb detonates, nearby enemies are thrown backward.",
+    "gear_type": "smoke_bomb"
+  },
+  {
+    "id": "strong_brew",
+    "title": "Strong Brew",
+    "description": "Healing increased by 50%",
+    "gear_type": "healing_gourd"
+  },
+  {
+    "id": "deep_bags",
+    "title": "Deep Bags",
+    "description": "Increased radius and number of Caltrops.",
+    "gear_type": "caltrops"
+  }
+]
