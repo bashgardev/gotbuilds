@@ -1062,6 +1062,8 @@ module.exports = {
         legendary: "var(--color-legendary)",
         "legendary-dark": "var(--color-legendary-dark)",
         "bg-primary": "var(--color-bg-primary)",
+        gold: "var(--color-gold)",
+        "gold-dark": "var(--color-gold-dark)",
       },
     },
   },

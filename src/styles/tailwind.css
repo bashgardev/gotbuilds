@@ -8,6 +8,8 @@
   --color-legendary: #e64d0b;
   --color-legendary-dark: #993307;
   --color-bg-primary: #420f0f;
+  --color-gold: #c0b07f;
+  --color-gold-dark: #4b3b27;
 }
 
 @tailwind base;
