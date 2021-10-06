@@ -1,0 +1,450 @@
+[
+  {
+    "id": "1",
+    "title": "Hachiman's Fury",
+    "description": "Perform a series of lightning-fast strikes against a group of enemies. Costs 3 Resolve.",
+    "type": "ult",
+    "class": "samurai"
+  },
+  {
+    "id": "1",
+    "title": "Spirit Pull",
+    "description": "While active, your Spirit Pull passively siphons health from a nearby enemy. Base cooldown 36s.",
+    "type": "ability",
+    "class": "samurai"
+  },
+  {
+    "id": "2",
+    "title": "Explosive Blade",
+    "description": "Melee attacks deal damaging explosions on impact. Base cooldown 36s.",
+    "type": "ability",
+    "class": "samurai"
+  },
+  {
+    "id": "3",
+    "title": "",
+    "description": "",
+    "type": "ability",
+    "class": "samurai"
+  },
+  {
+    "id": "1",
+    "title": "Defender",
+    "description": "Increases base health by 25.",
+    "type": "tech_1",
+    "class": "samurai"
+  },
+  {
+    "id": "2",
+    "title": "Deep Strikes",
+    "description": "Increases Melee damage by 10%.",
+    "type": "tech_1",
+    "class": "samurai"
+  },
+  {
+    "id": "3",
+    "title": "Samurai Unleashed",
+    "description": "Decrease class ability cooldown by 15%.",
+    "type": "tech_1",
+    "class": "samurai"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_1",
+    "class": "samurai"
+  },
+  {
+    "id": "1",
+    "title": "Lightning Reflexes",
+    "description": "Parry incoming arrows while blocking.",
+    "type": "tech_2",
+    "class": "samurai"
+  },
+  {
+    "id": "2",
+    "title": "Critical Defense",
+    "description": "Increased parry and dodge window when at low health.",
+    "type": "tech_2",
+    "class": "samurai"
+  },
+  {
+    "id": "3",
+    "title": "Resolve Increase",
+    "description": "Increase max Resolve by 1.",
+    "type": "tech_2",
+    "class": "samurai"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_2",
+    "class": "samurai"
+  },
+  {
+    "id": "1",
+    "title": "Heavenly Strike",
+    "description": "Perform an unblockable quick strike. O+Triangle to activate. Costs 1 Resolve.",
+    "type": "tech_3",
+    "class": "samurai"
+  },
+  {
+    "id": "2",
+    "title": "Hachiman's Frenzy",
+    "description": "Hachiman's Fury gains 2 extra strikes.",
+    "type": "tech_3",
+    "class": "samurai"
+  },
+  {
+    "id": "3",
+    "title": "Legendary",
+    "description": "Increases the number of Legendary items you can equip by 1.",
+    "type": "tech_3",
+    "class": "samurai"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_3",
+    "class": "samurai"
+  },
+  {
+    "id": "1",
+    "title": "Eye of Uchitsune",
+    "description": "Target 3 enemies and fire a guaranteed headshot at each target. Costs 3 Resolve.",
+    "type": "ult",
+    "class": "hunter"
+  },
+  {
+    "id": "1",
+    "title": "Staggering Arrow",
+    "description": "Fire an arrow that stuns enemies in a small area. Base cooldown 55s.",
+    "type": "ability",
+    "class": "hunter"
+  },
+  {
+    "id": "2",
+    "title": "Explosive Arrow",
+    "description": "Fire an arrow that explodes after a short delay. Base cooldown 55s.",
+    "type": "ability",
+    "class": "hunter"
+  },
+  {
+    "id": "3",
+    "title": "",
+    "description": "",
+    "type": "ability",
+    "class": "hunter"
+  },
+  {
+    "id": "1",
+    "title": "Executioner",
+    "description": "Increase headshot damage by 50% for targets within 12 meters.",
+    "type": "tech_1",
+    "class": "hunter"
+  },
+  {
+    "id": "2",
+    "title": "Scent of Blood",
+    "description": "Increase draw and reload speed by 100% for 30 seconds after attempting an assassination.",
+    "type": "tech_1",
+    "class": "hunter"
+  },
+  {
+    "id": "3",
+    "title": "Hunter Unleased",
+    "description": "Decrease class ability cooldown by 15%.",
+    "type": "tech_1",
+    "class": "hunter"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_1",
+    "class": "hunter"
+  },
+  {
+    "id": "1",
+    "title": "Resupply",
+    "description": "Refill 30% of all ammo types. x while aiming to activate. Costs 1 Resolve.",
+    "type": "tech_2",
+    "class": "hunter"
+  },
+  {
+    "id": "2",
+    "title": "Status Damage",
+    "description": "Damage of status effects increased by 25%.",
+    "type": "tech_2",
+    "class": "hunter"
+  },
+  {
+    "id": "3",
+    "title": "Piercing Arrow",
+    "description": "Unlock Piercing Arrows for your bow that can penetrate shields.",
+    "type": "tech_2",
+    "class": "hunter"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_2",
+    "class": "hunter"
+  },
+  {
+    "id": "1",
+    "title": "Pinpoint",
+    "description": "Body shots with the bow have a 50% chance to deal headshot damage.",
+    "type": "tech_3",
+    "class": "hunter"
+  },
+  {
+    "id": "2",
+    "title": "All-Seeing Eye",
+    "description": "Eye of Uchitsune can target 2 more enemies.",
+    "type": "tech_3",
+    "class": "hunter"
+  },
+  {
+    "id": "3",
+    "title": "Legendary",
+    "description": "Increases the number of Legendary items you can equip by 1.",
+    "type": "tech_3",
+    "class": "hunter"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_3",
+    "class": "hunter"
+  },
+  {
+    "id": "1",
+    "title": "Breath of Izanami",
+    "description": "Revive all downed allies. Costs 3 Resolve.",
+    "type": "ult",
+    "class": "ronin"
+  },
+  {
+    "id": "1",
+    "title": "Spirit Animal",
+    "description": "Summon a friendly dog companion for a short amount of time. Base cooldown 65s.",
+    "type": "ability",
+    "class": "ronin"
+  },
+  {
+    "id": "2",
+    "title": "Healing Incense",
+    "description": "Deploy a small pot of incense that heals nearby allies. Base cooldown 42s.",
+    "type": "ability",
+    "class": "ronin"
+  },
+  {
+    "id": "3",
+    "title": "",
+    "description": "",
+    "type": "ability",
+    "class": "ronin"
+  },
+  {
+    "id": "1",
+    "title": "Enhanced Ghost Weapons",
+    "description": "Increase damage from all Ghost Weapons by 50%.",
+    "type": "tech_1",
+    "class": "ronin"
+  },
+  {
+    "id": "2",
+    "title": "Weakening Burst",
+    "description": "Weaken enemies so they deal 25% less damage and take 25% more damage. R1+x to activate. Costs 1 Resolve.",
+    "type": "tech_1",
+    "class": "ronin"
+  },
+  {
+    "id": "3",
+    "title": "Ronin Unleashed",
+    "description": "Decrease class ability cooldown by 15%.",
+    "type": "tech_1",
+    "class": "ronin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_1",
+    "class": "ronin"
+  },
+  {
+    "id": "1",
+    "title": "Staggering Impostion",
+    "description": "Increases Stagger damage inflicted by 15%.",
+    "type": "tech_2",
+    "class": "ronin"
+  },
+  {
+    "id": "2",
+    "title": "Resolve Increase",
+    "description": "Increases max Resolve by 1.",
+    "type": "tech_2",
+    "class": "ronin"
+  },
+  {
+    "id": "3",
+    "title": "Quick Regen",
+    "description": "Increase healing received and health regen by 50%.",
+    "type": "tech_2",
+    "class": "ronin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_2",
+    "class": "ronin"
+  },
+  {
+    "id": "1",
+    "title": "Soothing Breath",
+    "description": "Breath of Izanami now also applies a heal over time on all player for 8 seconds.",
+    "type": "tech_3",
+    "class": "ronin"
+  },
+  {
+    "id": "2",
+    "title": "Fire Breath",
+    "description": "Breath of Izanami now also ignites enemies near all players.",
+    "type": "tech_3",
+    "class": "ronin"
+  },
+  {
+    "id": "3",
+    "title": "Legendary",
+    "description": "Increases the number of Legendary items you can equip by 1.",
+    "type": "tech_3",
+    "class": "ronin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_3",
+    "class": "ronin"
+  },
+  {
+    "id": "1",
+    "title": "Shadow Strike",
+    "description": "Enter the shadows and strike enemies from a distance. Costs 3 Resolve.",
+    "type": "ult",
+    "class": "assasin"
+  },
+  {
+    "id": "1",
+    "title": "Toxic Vanish",
+    "description": "Vanish in a cloud of poison smoke that deals Stagger damage to nearby enemies. Base cooldown 62s.",
+    "type": "ability",
+    "class": "assasin"
+  },
+  {
+    "id": "2",
+    "title": "Group Vanish",
+    "description": "Vanish along with nearby allies. Base cooldown 50s.",
+    "type": "ability",
+    "class": "assasin"
+  },
+  {
+    "id": "3",
+    "title": "",
+    "description": "",
+    "type": "ability",
+    "class": "assasin"
+  },
+  {
+    "id": "1",
+    "title": "Critical Hit",
+    "description": "Inflict 30% more damage during assassinations.",
+    "type": "tech_1",
+    "class": "assasin"
+  },
+  {
+    "id": "2",
+    "title": "Super Strike",
+    "description": "Perform a stronger Stealth Attack dealing 2x normal damage.",
+    "type": "tech_1",
+    "class": "assasin"
+  },
+  {
+    "id": "3",
+    "title": "Assassin Unleashed",
+    "description": "Decrease class ability cooldown by 15%.",
+    "type": "tech_1",
+    "class": "assasin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_1",
+    "class": "assasin"
+  },
+  {
+    "id": "1",
+    "title": "Experienced Assassin",
+    "description": "Stealth attacks are faster and quiet.",
+    "type": "tech_2",
+    "class": "assasin"
+  },
+  {
+    "id": "2",
+    "title": "Light Step",
+    "description": "You are silent when running.",
+    "type": "tech_2",
+    "class": "assasin"
+  },
+  {
+    "id": "3",
+    "title": "Opportunist",
+    "description": "Deals 50% bonus assassination damage to Staggered enemies.",
+    "type": "tech_2",
+    "class": "assasin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_2",
+    "class": "assasin"
+  },
+  {
+    "id": "1",
+    "title": "Shadow Storm",
+    "description": "Shadow Strike gains 2 extra strikes.",
+    "type": "tech_3",
+    "class": "assasin"
+  },
+  {
+    "id": "2",
+    "title": "Chain Vanish",
+    "description": "Successfully assassinating an enemy while vanished re-activates vanish and refreshes the duration.",
+    "type": "tech_3",
+    "class": "assasin"
+  },
+  {
+    "id": "3",
+    "title": "Legendary",
+    "description": "Increases the number of Legendary items you can equip by 1.",
+    "type": "tech_3",
+    "class": "assasin"
+  },
+  {
+    "id": "4",
+    "title": "",
+    "description": "",
+    "type": "tech_3",
+    "class": "assasin"
+  }
+]
