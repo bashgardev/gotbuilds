@@ -2,9 +2,13 @@
 
 A tool to create, and share loadouts for Ghost of Tsushima: Legends online multiplayer game.
 
+**Note: This project is currently in development and does not have a live version yet!**
+
 Create and name a loadout, simply share it by copying the full URL, no need to create an account. The loadout information is encoded in a URL parameter, allowing to save loadouts to your Bookmarks. No need to take many screenshots to share a all perks and techniques.
 
 This tool is useful when trying to build loadouts even if you don't own the item in the game yet. Allowing you to easily switch properties and perks to match a preferred playstyle. Handy tiptools appear on most screen items, allowing you to see the in-game description of such item.
+
+![image](https://user-images.githubusercontent.com/86371658/137036416-6e2245a8-1e2c-472f-9061-a94e39b283e5.png)
 
 **Note: This project is currently in development and does not have a live version yet!**
 
