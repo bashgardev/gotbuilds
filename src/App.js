@@ -5,7 +5,7 @@ import "./styles/output.css";
 
 function App() {
   return (
-    <div className="bg-bg-primary font-urbanist min-h-screen font-medium md:p-2 md:flex justify-center ">
+    <div className="bg-primary-dark font-urbanist min-h-screen font-medium md:p-2 md:flex justify-center ">
       <LoadoutContextProvider>
         <Loadout />
       </LoadoutContextProvider>

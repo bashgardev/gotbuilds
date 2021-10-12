@@ -51,7 +51,7 @@ export default function Techniques() {
   )[0];
 
   return (
-    <div className="border-t-2 border-opacity-25 p-3 text-white bg-black bg-opacity-20 text-opacity-80">
+    <div className="border-t-2 border-opacity-30 p-3 text-white bg-primary-medium-shaded text-opacity-80">
       <div className=" md:text-sm items-center grid grid-flow-col grid-rows-5 md:grid-cols-3 grid-cols-2">
         <RadioGroup
           as="div"

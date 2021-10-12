@@ -70,10 +70,10 @@ export default function Slot(props) {
     db.perks[currentLoadout[slotType].perk_2].description;
 
   return (
-    <div id="" className=" grid md:grid-cols-2   ">
-      <div className="relative border-t-2 border-white border-opacity-30 shadow-2xl md:shadow-none flex-none flex self-start text-white pr-8 ">
+    <div id="" className=" grid md:grid-cols-2 bg-primary-medium">
+      <div className=" relative border-t-2 border-white border-opacity-30 shadow-2xl md:shadow-none flex-none flex items-center text-white pr-8 ">
         <div
-          className={`bg-gradient-to-br from-${rarity} to-black p-0.5 shadow-md flex-none   m-2`}
+          className={`bg-gradient-to-br from-${rarity} to-black p-0.5 shadow-md flex-none m-2`}
         >
           <img
             className="  md:h-20 md:w-20 h-14 w-14"
@@ -85,8 +85,9 @@ export default function Slot(props) {
 
         {/* Item Title Section*/}
 
-        <div className="self-center mr-4 text-xl ">
+        <div className="self-center mr-4 text-xl">
           {title}
+
           <Listbox
             as="div"
             className="absolute top-0 right-0"
@@ -127,7 +128,7 @@ export default function Slot(props) {
 
       {/* Properties and Perks Section */}
 
-      <div className="md:border-t-2 border-white border-opacity-30 text-white bg-black bg-opacity-50 pl-4 py-2 flex justify-between">
+      <div className="md:border-t-2 border-white border-opacity-30 text-white bg-primary-medium-shaded pl-4 py-2 flex justify-between">
         <div className="table w-full">
           <div className="table-row-group text-white text-opacity-80">
             <div className="table-row">

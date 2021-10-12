@@ -3,7 +3,7 @@ import Slot from "./Slot";
 
 export default function Build() {
   return (
-    <div className="background-pattern-2">
+    <div>
       <Slot type="katana" />
       <Slot type="ranged" />
       <Slot type="charm" />
