@@ -208,7 +208,7 @@
     "gear": "defense_charm, ronin_charm, healing_gourd"
   },
   {
-    "id": "cool_red",
+    "id": "cool_red_charm",
     "title": "Cooldown Reduction",
     "value_min": 5,
     "value_max": 10,

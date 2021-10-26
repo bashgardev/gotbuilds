@@ -216,6 +216,14 @@
       "gear": "kunai, dirt_throw, sticky_bomb, smoke_bomb, healing_gourd, caltrops",
       "description": "Reduces the base cooldown of this weapon."
     },
+    "cool_red_charm": {
+      "title": "Cooldown Reduction",
+      "value_min": 5,
+      "value_max": 10,
+      "value_type": "percentage",
+      "gear": "stealth_charm, assasin_charm",
+      "description": "Reduces the base cooldown of this weapon."
+    },
     "dmg_inc": {
       "title": "Damage Increase",
       "value_min": 12,
@@ -493,7 +501,7 @@
       "description": "Successive kills without taking damage increases damage dealt.",
       "gear_type": "samurai_charm"
     },
-    "blessed_strikes": {
+    "blessed_arrows": {
       "title": "Blessed Arrows",
       "description": "Headshots also heal nearby allies.",
       "gear_type": "hunter_charm"
