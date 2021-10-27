@@ -36,22 +36,20 @@ export default function Hero() {
           })
         }
       >
-        <Listbox.Button>
-          <button className="absolute flex top-0 right-0 m-4 uppercase bg-primary-light py-2 pl-4 pr-2 rounded-lg ">
-            {currentLoadout.class}
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-4 w-4 mt-1 ml-2"
-              viewBox="0 0 20 20"
-              fill="currentColor"
-            >
-              <path
-                fillRule="evenodd"
-                d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                clipRule="evenodd"
-              />
-            </svg>
-          </button>
+        <Listbox.Button className="absolute flex top-0 right-0 m-4 uppercase bg-primary-light py-2 pl-4 pr-2 rounded-lg ">
+          {currentLoadout.class}
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-4 w-4 mt-1 ml-2"
+            viewBox="0 0 20 20"
+            fill="currentColor"
+          >
+            <path
+              fillRule="evenodd"
+              d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
+              clipRule="evenodd"
+            />
+          </svg>
         </Listbox.Button>
         <Listbox.Options className="absolute flex flex-col gap-0.5 z-10 top-16 left-0 w-full bg-black shadow-lg p-1 text-base">
           {classes.map((item) => (

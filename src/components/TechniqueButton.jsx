@@ -8,7 +8,7 @@ export default function TechniqueButton({ children, selected }) {
 
   return (
     <button
-      className={`w-6 h-6 mx-2 align-middle text-center border-2 ${selectedStyle} transform rotate-45`}
+      className={`hover:border-opacity-50 w-6 h-6 mx-2 align-middle text-center border-2 ${selectedStyle} transform rotate-45`}
     >
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 transform -rotate-45">
         {children}

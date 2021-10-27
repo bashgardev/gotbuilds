@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SelectorButton() {
   return (
-    <button className="m-2 p-2 md:p-1 bg-red-900 rounded-full 0">
+    <div className="m-2 p-2 md:p-1 hover:bg-primary-light hover:bg-opacity-30 bg-primary-medium-shaded rounded-full 0">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-5 w-5"
@@ -17,6 +17,6 @@ export default function SelectorButton() {
           d="M19 9l-7 7-7-7"
         />
       </svg>
-    </button>
+    </div>
   );
 }

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function SelectorPropertyButton() {
   return (
-    <button className="ml-2 p-1 bg-black bg-opacity-30 rounded-full">
+    <div className=" p-1 ml-1 flex bg-black bg-opacity-30 hover:bg-white hover:bg-opacity-10 rounded-full">
       {/* <svg
         xmlns="http://www.w3.org/2000/svg"
         className="h-4 w-4"
@@ -19,18 +19,18 @@ export default function SelectorPropertyButton() {
       </svg> */}
       <svg
         xmlns="http://www.w3.org/2000/svg"
-        class="h-4 w-4"
+        className="h-4 w-4"
         fill="none"
         viewBox="0 0 24 24"
         stroke="currentColor"
       >
         <path
-          stroke-linecap="round"
-          stroke-linejoin="round"
-          stroke-width="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
           d="M8 9l4-4 4 4m0 6l-4 4-4-4"
         />
       </svg>
-    </button>
+    </div>
   );
 }

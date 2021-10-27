@@ -11,7 +11,7 @@ export default function AbilityButton({ type, children, selected }) {
   }
   return (
     <button
-      className={`absolute m-1  w-${size} h-${size} relative ${selectedStyle} border-2 rounded-full`}
+      className={`hover:border-opacity-50 absolute m-1  w-${size} h-${size} relative ${selectedStyle} border-2 rounded-full`}
     >
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
         {children}
