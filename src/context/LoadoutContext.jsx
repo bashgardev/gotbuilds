@@ -45,7 +45,7 @@ export const LoadoutContextProvider = ({ children }) => {
       }}
     >
       {children}
-      {console.log(currentLoadout)}
+      {/* {console.log(currentLoadout)} */}
     </LoadoutContext.Provider>
   );
 };

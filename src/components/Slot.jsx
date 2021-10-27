@@ -6,9 +6,7 @@ import properties from "../db/properties.json";
 import perks from "../db/perks.json";
 import items from "../db/items.json";
 import "../styles/themes/dark.css";
-// import Ki from "./Ki";
 import SelectorPropertyButton from "./SelectorPropertyButton";
-// import PropertySelectPopover from "./PropertySelectPopover";
 import { LoadoutContext } from "../context/LoadoutContext";
 import { Listbox } from "@headlessui/react";
 import SelectorButton from "./SelectorButton";
@@ -106,14 +104,14 @@ export default function Slot(props) {
             <Listbox.Options className=" absolute overflow-y-scroll max-h-screen top-14 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
               {compatibleItems.map((item) => (
                 <Listbox.Option key={item.id} value={item}>
-                  <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                  <button className=" w-full hover:bg-opacity-25 whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                     {item.title}
                     <div
                       className={`ml-10 uppercase text-transparent font-bold bg-clip-text bg-gradient-to-br from-${item.rarity} to-${item.rarity}-dark max-w-min}`}
                     >
                       {item.rarity}
                     </div>
-                  </div>
+                  </button>
                 </Listbox.Option>
               ))}
             </Listbox.Options>
@@ -131,6 +129,8 @@ export default function Slot(props) {
       <div className="md:border-t-2 border-white border-opacity-30 text-white bg-primary-medium-shaded pl-4 py-2 flex justify-between">
         <div className="table w-full">
           <div className="table-row-group text-white text-opacity-80">
+            {/* Property 1 */}
+
             <div className="table-row">
               <div className="table-cell w-full">
                 <Tippy
@@ -163,22 +163,24 @@ export default function Slot(props) {
                   </Listbox.Button>
 
                   <Listbox.Options className=" absolute overflow-y-scroll max-h-screen top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
-                    {properties.map((property) => (
+                    {compatibleProperties.map((property) => (
                       <Listbox.Option key={property.id} value={property}>
-                        <div className="  whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <button className=" w-full hover:bg-opacity-25 whitespace-nowrap flex justify-between  bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {property.title}
                           <div className="ml-10">
                             {`+ ${property.value_min} - ${property.value_max} ${
                               property.value_type === "percentage" ? "%" : "s"
                             }`}
                           </div>
-                        </div>
+                        </button>
                       </Listbox.Option>
                     ))}
                   </Listbox.Options>
                 </Listbox>
               </div>
             </div>
+
+            {/* Property 2 */}
 
             <div className="table-row ">
               <div className="table-cell">
@@ -214,20 +216,22 @@ export default function Slot(props) {
                   <Listbox.Options className="overflow-y-scroll max-h-screen absolute top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
                     {properties.map((property) => (
                       <Listbox.Option key={property.id} value={property}>
-                        <div className="  whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <button className=" w-full hover:bg-opacity-25 whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {property.title}
                           <div className="ml-10">
                             {`+ ${property.value_min} - ${property.value_max} ${
                               property.value_type === "percentage" ? "%" : "s"
                             }`}
                           </div>
-                        </div>
+                        </button>
                       </Listbox.Option>
                     ))}
                   </Listbox.Options>
                 </Listbox>
               </div>
             </div>
+
+            {/* Perk 1 */}
 
             <div className="table-row text-red-600">
               <div className="table-cell whitespace-nowrap">
@@ -257,18 +261,20 @@ export default function Slot(props) {
                     <SelectorPropertyButton />
                   </Listbox.Button>
 
-                  <Listbox.Options className=" absolute top-10 right-10 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
+                  <Listbox.Options className=" overflow-y-scroll max-h-96 absolute top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
                     {perks.map((perk) => (
                       <Listbox.Option key={perk.id} value={perk}>
-                        <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <button className=" w-full hover:bg-opacity-25 whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {perk.title}
-                        </div>
+                        </button>
                       </Listbox.Option>
                     ))}
                   </Listbox.Options>
                 </Listbox>
               </div>
             </div>
+
+            {/* Perk 2 */}
 
             <div className="table-row text-red-600">
               <div className="table-cell whitespace-nowrap">
@@ -298,12 +304,12 @@ export default function Slot(props) {
                     <SelectorPropertyButton />
                   </Listbox.Button>
 
-                  <Listbox.Options className=" absolute top-10 right-10 bg-black shadow-lg p-0.5 rounded-lg z-10 text-base">
+                  <Listbox.Options className=" overflow-y-scroll max-h-96 absolute top-7 right-0 bg-black shadow-lg p-0.5 rounded-lg z-10 text-basee">
                     {perks.map((perk) => (
                       <Listbox.Option key={perk.id} value={perk}>
-                        <div className="whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
+                        <button className="w-full hover:bg-opacity-25 whitespace-nowrap flex justify-between bg-white m-0.5 px-2 py-1 rounded-md bg-opacity-10">
                           {perk.title}
-                        </div>
+                        </button>
                       </Listbox.Option>
                     ))}
                   </Listbox.Options>
