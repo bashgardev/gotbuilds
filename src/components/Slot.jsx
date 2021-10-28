@@ -21,6 +21,26 @@ export default function Slot(props) {
     .filter((item) => item.gear_type === slotType)
     .map((item) => item);
 
+  // Determine compatible properties given the item and slot type
+  // TODO: Does not account for legendary items, db needs to be updated for this to work, manual research required
+  const compatibleProperties = properties
+    .filter((property) => {
+      let compatibleGearList = property.gear
+        .split(",")
+        .map((word) => word.trim());
+
+      if (
+        compatibleGearList.includes(slotType) ||
+        compatibleGearList.includes(currentLoadout[slotType].item) ||
+        compatibleGearList.includes(items[currentLoadout[slotType].item])
+      ) {
+        return property;
+      } else {
+        return null;
+      }
+    })
+    .map((item) => item);
+
   // Item information assignment
   const itemInfo = items.filter(
     (item) => item.id === currentLoadout[slotType].item
